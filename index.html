@@ -14,6 +14,26 @@
   
   <link href="./assets/images/Late_Night_FB_Profile_Large.jpg" rel="apple-touch-icon">
   <link href="./assets/images/Late_Night_FB_Profile_Large.jpg" rel="icon">
+  
+  <script>
+$ npm install link-preview-generator
+    const linkPreviewGenerator = require("link-preview-generator");
+
+const previewData = await linkPreviewGenerator(
+  "https://latenightscholarships.com/index.html?fbclid=IwAR0yUu2weriJPfJLiePHbuBDZyUrJ5FqLAua2U_wkwoIfsAPaJyLZ0pXsGw"
+);
+console.log(previewData);
+/*
+{
+  title: 'Late Night Scholarships Website - Homepage',
+  description: 'Learn more about the Late Night Scholarships fund, ' +
+    'make a donation or request more information about the donation process, ' +
+    'and discover what it means to be part of the Late Night Scholarship organization. ' +
+    'Sessio...',
+  img: './assets/images/Late_Night_FB_Profile_Large.jpg'
+}
+*/
+</script>
 
  
 
