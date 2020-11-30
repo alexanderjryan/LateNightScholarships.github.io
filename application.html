@@ -236,9 +236,44 @@
                       </label>
                     </div>
                   </div>
-                  <div class="col-md-6 form-group">
-                    <label for="transcript" accept=".pdf">Please attach an electronic copy of your transcript that reflects your final grades from the start of high school up until the second 9 weeks of your senior year<span class="lns-required">*</span></label>
-                    <input type="file" id="transcript">
+                  <div class="col-md-6">
+                    <label for="dual-credit-courses">How many dual credit courses have you taken (including currently enrolled)?<span class="lns-required">*</span></label>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-5" value="5+">
+                        5+
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-4" value="4">
+                        4
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-3" value="3">
+                        3
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-2" value="2">
+                        2
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-1" value="1">
+                        1
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dual-credit-courses" id="ap-0" value="0">
+                        0
+                      </label>
+                    </div>
                   </div>
                   <div class="col-md-6">
                     <label for="ap-courses">How many AP courses have you taken (including currently enrolled)?<span class="lns-required">*</span></label>
@@ -278,6 +313,10 @@
                         0
                       </label>
                     </div>
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <label for="transcript" accept=".pdf">Please attach an electronic copy of your transcript that reflects your final grades from the start of high school up until the second 9 weeks of your senior year<span class="lns-required">*</span></label>
+                    <input type="file" id="transcript">
                   </div>
                 </div>
                 <div class="row">
@@ -509,19 +548,24 @@
       $validationList.append($('<li>').text('Graduation Attestation is required'));
     }
 
-    if ($('#transcript').val().length === 0) {
-      isValid = false;
-      $validationList.append($('<li>').text('Transcript is required'));
-    }
-
     if ($('input[name="gpa"]:checked').val() === undefined) {
       isValid = false;
       $validationList.append($('<li>').text('GPA is required'));
     }
 
+    if ($('input[name="dual-credit-courses"]:checked').val() === undefined) {
+      isValid = false;
+      $validationList.append($('<li>').text('Number of dual credit courses is required'));
+    }
+
     if ($('input[name="ap-courses"]:checked').val() === undefined) {
       isValid = false;
       $validationList.append($('<li>').text('Number of AP courses is required'));
+    }
+
+    if ($('#transcript').val().length === 0) {
+      isValid = false;
+      $validationList.append($('<li>').text('Transcript is required'));
     }
     
     if ($('#university-accepted').val().length === 0) {
@@ -566,8 +610,9 @@
         disabilities: $('textarea[name="disabilities"]').val(),
         graduationAttestation: $('input[name="graduationAttestation"]:checked').val(),
         unweightedGPA: $('input[name="gpa"]:checked').val(),
-        transcript: `${$('#name').val()}_${document.getElementById('transcript').files[0].name}`,
+        numberOfDualCreditCourses: $('input[name="dual-credit-courses"]:checked').val(),
         numberOfAPCourses: $('input[name="ap-courses"]:checked').val(),
+        transcript: `${$('#name').val()}_${document.getElementById('transcript').files[0].name}`,
         perryExtracurriculars: $('textarea[name="perry-extracurriculars"]').val(),
         otherExtracurriculars: $('textarea[name="other-extracurriculars"]').val(),
         plannedUniversity: $('#university-accepted').val(),
