@@ -236,10 +236,7 @@
       if (isFormValid()) {
         $('#submit-button-text').hide();
         $('#submit-button-loader').show();
-        const fileReader = new FileReader();
-        fileReader.onload = submitForm;
-        fileReader.onerror = onSubmitError;
-        fileReader.readAsDataURL(document.getElementById('transcript').files[0]);
+        submitForm()
       } else {
         $('#validation-message').show();
       }
@@ -287,7 +284,7 @@
   }
 
 
-  function submitForm(e) {
+  function submitForm() {
     const data = {
       application: {
         name: $('#name').val(),
