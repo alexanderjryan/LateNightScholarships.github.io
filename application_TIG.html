@@ -88,16 +88,16 @@
            
                 <div class="row">
                   <div class="col-md-6">
-                    <label for="citizen">Identified Gender<span class="lns-required">*</span></label>
+                    <label for="gender">Identified Gender<span class="lns-required">*</span></label>
                     <div class="radio">
                       <label>
-                        <input type="radio" name="citizen" id="gender-male" value="true">
+                        <input type="radio" name="gender" id="gender-male" value="true">
                         Male
                       </label>
                     </div>
                     <div class="radio">
                       <label>
-                        <input type="radio" name="citizen" id="gender-female" value="false" >
+                        <input type="radio" name="gender" id="gender-female" value="false" >
                         Female
                       </label>
                     </div>
@@ -262,6 +262,11 @@
       $validationList.append($('<li>').text('Email address is required'));
     }
 
+    if ($('input[name="gender"]:checked').val() === undefined) {
+      isValid = false;
+      $validationList.append($('<li>').text('Identified Gender is required'));
+    }
+    
     if ($('input[name="graduationAttestation"]:checked').val() === undefined) {
       isValid = false;
       $validationList.append($('<li>').text('Graduation Attestation is required'));
@@ -287,6 +292,7 @@
       application: {
         name: $('#name').val(),
         email: $('#email').val(),
+        gender: $('input[name="gender"]:checked').val(),
         graduationAttestation: $('input[name="graduationAttestation"]:checked').val(),
         plannedUniversity: $('#university-accepted').val(),
         appliedUniversity: $('#university-applied').val(),
@@ -296,7 +302,7 @@
     };
 
     $.ajax({
-      url: 'https://script.google.com/macros/s/AKfycbzyiDqHKiiJ4BD4I8MLyFBVVTOPMQ6BqzriSVxOhUX0GDbwCk9m/exec',
+      url: 'https://script.google.com/macros/s/AKfycbzdoCUcy5Xw5CpJl7kGa3SKRskjTcws7CKuzhqhTiYpnwO0WSkw/exec',
       method: 'POST',
       data: JSON.stringify(data),
       dataType: 'json',
