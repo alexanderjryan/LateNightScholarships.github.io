@@ -12,9 +12,9 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link href="./assets/images/Late_Night_FB_Profile_Large.jpg" rel="apple-touch-icon">
-  <link href="./assets/images/Late_Night_FB_Profile_Large.jpg" rel="icon">
-
+  <link href="../assets/images/Late_Night_FB_Profile_Large.jpg" rel="apple-touch-icon">
+  <link href="../assets/images/Late_Night_FB_Profile_Large.jpg" rel="icon">
+  
   <meta property="og:title" content="Late Night Scholarships Website - Homepage"/>
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://latenightscholarships.com/index.html?fbclid=IwAR26V3mkfzLP-b7Cmw8RfLWGMNbzcR2K5h6eUbotR7tJpCggVjyJh7Fisag/" />
@@ -25,10 +25,11 @@
   <meta property="og:image:width" content="1500"/>
   <meta property="og:image:height" content="1000"/>
 
+
   <title>Home</title>  
 
-  <link href="./main.a3f694c0.css" rel="stylesheet">
-  <link href="./lns.css" rel="stylesheet">
+  <link href="../main.a3f694c0.css" rel="stylesheet">
+  <link href="../lns.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +46,10 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="./index.html" title="">
-            <img src="./assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+            <div class="d-flex">
+              <img src="../assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+              <div class="navbar-title">St. Vincent-St. Mary</div>
+            </div>
           </a>
         </div>
 
@@ -54,68 +58,102 @@
             <li><a href="./index.html" title="" class="active">Home</a></li>
             <li><a href="./about.html" title=""> About</a></li>
             <li><a href="./contact.html" title="">Contact</a></li>
+            <li>
+              <p>
+                <a href="./donate.html" class="btn btn-primary navbar-btn lns-nav-btn" title="">Donate</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="./application.html" class="btn btn-danger navbar-btn lns-nav-btn lns-apply-btn" title="">Apply</a>
+              </p>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <div class="section-container background-color-container white-text-container">
+  <div class="white-text-container background-image-container">
+    <div class="opacity"></div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-          <div class="text-center">
-            <h2>Late Night Scholarships</h2>
-            <p>The Late Night Scolarships was formed to provide local high school alumni with the opportunity to give back to their communities and support students interested in attending college or trade schools.</p>
-          </div>
+
+        <div class="col-md-6">
+          <h1>St. Vincent-St. Mary</h1>
+          <p>This scholarship is not yet available</p>
+          <a href="./donate.html" title="" class="btn btn-lg btn-primary lns-action-btn">Donate</a>
+          <a href="./application.html" title="" class="btn btn-lg btn-danger lns-action-btn lns-apply-btn">Apply</a>
         </div>
+
       </div>
     </div>
   </div>
 
-  <div class="section-container border-section-container">
+  <!-- <div class="section-container border-section-container">
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-container-spacer">
           <div class="text-center">
-            <p style="font-size: 20px">Select your school to be taken to its scholarship site</p>
+            <h2>Perry Class of 2020 Winners</h2>
+            <p> The Late Night Scholarships fund awarded 3 scholarships to graduating seniors in the Perry Class of 2020. The winners include Toree Fogle, Tori Franklin, and Jocelyn Brown. Congratulations to our winners! </p>
           </div>
         </div>
 
         <div class="col-md-4">
-          <a href="./perry/index.html" class="school-select-block">
-            <img src="./assets/images/perry_logo.png" class="school-logo">
-            <h3>Perry</h3>
-          </a>
+          <div class="fa-container">
+            <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="text-center">
+            <h3>Toree Fogle</h3>
+          </div>
         </div>
         <div class="col-md-4">
-          <a href="./application_TIG.html" class="school-select-block">
-            <img src="./assets/images/massillon_logo.png" class="school-logo">
-            <h3>Massillon</h3>
-          </a>
+          <div class="fa-container">
+            <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="text-center">
+            <h3>Tori Franklin</h3>
+          </div>
         </div>
         <div class="col-md-4">
-          <a href="./stvm/index.html" class="school-select-block">
-            <img src="./assets/images/St._Vincent-St._Mary_High_School_logo.png" class="school-logo">
-            <h3>St. Vincent-St. Mary</h3>
-          </a>
+          <div class="fa-container">
+            <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="text-center">
+            <h3>Jocelyn Brown</h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="section-container">
+  <!-- <div class="section-container background-color-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center">
+            <h2>Donate to the Scholarship Fund</h2>
+            <p> The Late Night Scolarships fund is accepting donations for the Class of 2021 scholarships. Last year, we collected over $1,500 from over 35+ donors. 100% of donations go towards the scholarships. All donors have the option to review the anonymized applications and vote for which applicants should receive the scholarships. </p>
+            <a href="./donate.html" title="" class="btn btn-primary btn-lg">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="section-container">
     <div class="container">
       <div class="row">                   
         <div class="col-md-7">
-          <img class="img-responsive" src="./assets/images/img-06.png" alt="">
+          <img class="img-responsive" src="../assets/images/img-06.png" alt="">
         </div>
 
         <div class="col-md-5">
           <ul class="features">
             <li>
               <h3>Contribute to a Noble Cause</h3>
-              <p>Enable students to attend college with reduced financial obstacles.</p>
+              <p>Enable Perry students to attend college with reduced financial obstacles.</p>
             </li>
             <li>
               <h3>Maintain Transparency into the Scholarship Process</h3>
@@ -123,13 +161,13 @@
             </li>
             <li>
               <h3>Build an Alumni Base</h3>
-              <p>Reach out to fellow alumni to raise awareness and show our support for the next generation of local professionals.</p>
+              <p>Reach out to fellow alumni to raise awareness and show our support for the next generation of Perry professionals.</p>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <footer>
     <div class="section-container footer-container">
@@ -169,7 +207,7 @@
   </script>
 
 
-<script type="text/javascript" src="./main.41beeca9.js"></script>
+<script type="text/javascript" src="../main.41beeca9.js"></script>
 </body>
 
 </html>
