@@ -126,9 +126,12 @@
 export default {
   name: "App",
   components: {},
+  // Single Page Apps for GitHub Pages
+  // MIT License
+  // https://github.com/rafgraph/spa-github-pages
   created() {
     if (window.location.search[1] === '/' ) {
-      var decoded = l.search.slice(1).split('&').map(function(s) { 
+      var decoded = window.location.search.slice(1).split('&').map(function(s) {
         return s.replace(/~and~/g, '&')
       }).join('?');
       window.history.replaceState(null, null,
