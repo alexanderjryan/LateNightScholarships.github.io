@@ -19,6 +19,22 @@
         <div class="col-xs-12 col-md-8 col-md-offset-2">
           <div class="section-container-spacer">
             <div class="text-center">
+              <h2>Ask you employer about donation matching!</h2>
+            </div>
+            <p>
+              Some employers offer dollar for dollar or percentage matching of donations to registered nonprofits. You may need the following information:
+              <ul>
+                <li><strong>Registered Name: </strong>Late Night Scholarships Inc.</li>
+                <li><strong>Tax ID/EIN: </strong>843194538</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="section-container-spacer">
+            <div class="text-center">
               <h2>Donate Using PayPal</h2>
             </div>
             <p>The primary mode of donating to the scholarship fund is through our PayPal page. You can access this page <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WMYBCE92QTDN8&source=url" class="link-like-text" title="Late Night Scholarship PayPal" style="color:blue">here.</a>   
