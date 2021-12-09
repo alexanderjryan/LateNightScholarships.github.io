@@ -7,9 +7,9 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>LNS</title>
 
-    <meta property="og:title" content="Late Night Scholarships Website - Homepage"/>
+    <meta property="og:title" content="Late Night Scholarships"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://latenightscholarships.com/index.html?fbclid=IwAR26V3mkfzLP-b7Cmw8RfLWGMNbzcR2K5h6eUbotR7tJpCggVjyJh7Fisag/" />
+    <meta property="og:url" content="https://latenightscholarships.com/index.html" />
     <meta property="og:description" content="Learn more about the Late Night Scholarships fund, make a donation or request more information about the donation process, and discover what it means to be part of the Late Night Scholarship organization."/>
     <meta property="og:image" content="https://latenightscholarships.com/assets/images/img-06.png"/>
     <meta property="og:image:secure_url" content="https://latenightscholarships.com/assets/images/img-06.png" />
@@ -18,6 +18,31 @@
     <meta property="og:image:height" content="1000"/>
 
     <link href="./main.css" rel="stylesheet">
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
   </head>
   <body>
     <noscript>

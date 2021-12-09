@@ -126,6 +126,16 @@
 export default {
   name: "App",
   components: {},
+  created() {
+    if (window.location.search[1] === '/' ) {
+      var decoded = l.search.slice(1).split('&').map(function(s) { 
+        return s.replace(/~and~/g, '&')
+      }).join('?');
+      window.history.replaceState(null, null,
+          window.location.pathname.slice(0, -1) + decoded + window.location.hash
+      );
+    }
+  }
 };
 </script>
 
