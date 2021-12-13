@@ -11,8 +11,16 @@
               the opportunity to give back to the community and support
               college-bound Perry students.
             </p>
-            <router-link :to="{ name: 'donate' }" class="btn btn-lg btn-primary lns-action-btn">Donate</router-link>
-            <router-link :to="{ name: 'apply' }" class="btn btn-lg btn-danger lns-action-btn lns-apply-btn">Apply</router-link>
+            <router-link
+              :to="{ name: 'donate' }"
+              class="btn btn-lg btn-primary lns-action-btn"
+              >Donate</router-link
+            >
+            <router-link
+              :to="{ name: 'apply' }"
+              class="btn btn-lg btn-danger lns-action-btn lns-apply-btn"
+              >Apply</router-link
+            >
           </div>
         </div>
       </div>
@@ -94,8 +102,16 @@
           </div>
           <div class="col-md-8">
             <p>
-              Cat will be attending Baldwin Wallace University to major in
-              Adolescent Education with a concentration in English.
+              Cat Hughes will be attending Baldwin Wallace University this fall
+              to double major in Adolescent Young Adult Education and English.
+              Cat chose BW based on its well-known education program, its
+              proximity to Cleveland, and its strong value of the arts. During
+              her free time, Cat enjoys playing tennis, reading, and hanging out
+              with her friends. Cat is looking forward to experiencing the
+              numerous well-known arts programs that BW offers, such as concerts
+              from the Conservatory, and seeing the Theatre productions that the
+              school puts on. She also looks forward to the many opportunities
+              that the education program has to offer for its students.
             </p>
           </div>
         </div>
@@ -118,7 +134,11 @@
                 anonymized applications and vote for which applicants should
                 receive the scholarships.
               </p>
-              <router-link :to="{ name: 'donate' }" class="btn btn-primary btn-lg">Donate</router-link>
+              <router-link
+                :to="{ name: 'donate' }"
+                class="btn btn-primary btn-lg"
+                >Donate</router-link
+              >
             </div>
           </div>
         </div>
