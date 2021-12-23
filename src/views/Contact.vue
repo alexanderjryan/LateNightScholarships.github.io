@@ -53,7 +53,7 @@
                 @click="submitForm"
                 id="submit-form"
                 class="btn btn-primary btn-lg"
-                :disabled="submitted"
+                :disabled="submitted || loading"
               >
                 Send
               </button>
@@ -78,7 +78,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import httpClient from '@/api/api';
 
 export default {
   data: () => ({
@@ -87,34 +87,59 @@ export default {
     subject: '',
     message: '',
     submitted: false,
+    loading: false,
     errorMessage: null,
   }),
   methods: {
     submitForm() {
-      if (!this.isValid()) {
-        this.errorMessage = 'All fields are required';
+      if (!this.validate()) {
         return
       }
       this.errorMessage = null;
-      const params = {
-        "Full Name": this.fullName,
-        "Email": this.email,
-        "Subject": this.subject,
-        "Message": this.message,
-      };
-      axios({
-        url: 'https://script.google.com/macros/s/AKfycbyHkvCo8A-Uye_CFlPPVjQUO1eTFTpfxRQRMR2zhQiCgsjdj7Nu/exec?' + new URLSearchParams(params).toString(),
-        method: "GET",
+      this.loading = true;
+      httpClient.request({
+        method: 'POST',
+        url: 'contact',
+        data: {
+          name: this.fullName,
+          email: this.email,
+          subject: this.subject,
+          message: this.message,
+        }
       }).then(() => {
         this.submitted = true;
+        this.loading = false;
         this.fullName = '';
         this.email = '';
         this.subject = '';
         this.message = '';
+      }).catch(() => {
+        this.loading = false
+        this.errorMessage = 'Failed to submit. Please try again'
       })
     },
-    isValid() {
-      return this.fullName.length > 0 && this.email.length > 0 && this.subject.length > 0 && this.message.length > 0;
+    validate() {
+      if (!(this.fullName.length > 0 && this.email.length > 0 && this.subject.length > 0 && this.message.length > 0)) {
+        this.errorMessage = 'All fields are required';
+        return false;
+      }
+      if (this.fullName.length > 100) {
+        this.errorMessage = 'Name must be 100 or fewer characters'
+        return false;
+      }
+      if (this.email.length > 100) {
+        this.errorMessage = 'Email must be 100 or fewer characters'
+        return false;
+      }
+      if (this.subject.length > 5000) {
+        this.errorMessage = 'Subject must be 5000 or fewer characters'
+        return false;
+      }
+      if (this.message.length > 5000) {
+        this.errorMessage = 'Message must be 5000 or fewer characters'
+        return false;
+      }
+      return true;
     }
   },
 };
