@@ -8,7 +8,7 @@
               <h2>Late Night Scholarships Application</h2>
             </div>
             <p>
-              <!-- Check back in January for the class of 2022 application. -->
+              <!-- Check back in January for the class of 2023 application. -->
               The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three scholarships of $500 scholarships to graduating Perry students in the class of 2021. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2021. The winner of the scholarship will be announced in May 2021. 
               <br> <br> 
               Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here.
@@ -238,7 +238,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="essay-2-prompt-3">Imagine your household is hosting a foreign-exchange student who has never visited the United States. You have one week to help her experience your community's culture. List five activities you will do to show her your culture. Please explain why you included these activities on your list. Additionally, you have a unique opportunity to learn from her experience and gain cultural awareness. Describe one question you would ask her about her experience/culture abroad and explain why you have selected the question.</label>
+                    <label for="essay-2-prompt-3">"Enjoy the journey" describes the feeling that people should relish in their present day experiences instead of prioritizing only their destination. What journey have you enjoyed? What destination have you enjoyed more than the journey?</label>
                     <textarea v-model="application.essaySection2Prompt3" class="form-control" rows="4" name="essay-2-prompt-3" id="essay-2-prompt-3"></textarea>
                   </div>
                 </div>
@@ -457,3 +457,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.panel-body > .row {
+  margin-bottom: 15px;
+}
+
+.panel-body > .row:last-child {
+  margin-bottom: 0px;
+}
+</style>
