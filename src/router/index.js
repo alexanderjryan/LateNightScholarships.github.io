@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
+import AlumniNetwork from '@/views/AlumniNetwork.vue'
 import About from '@/views/About.vue';
 import Contact from '@/views/Contact.vue';
 import Donate from '@/views/Donate.vue';
@@ -13,6 +14,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home,
+  },
+  {
+    path: '/alumniNetwork',
+    name: 'alumni-network',
+    component: AlumniNetwork,
   },
   {
     path: '/about',
