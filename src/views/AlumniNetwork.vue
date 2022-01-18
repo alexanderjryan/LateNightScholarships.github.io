@@ -143,6 +143,61 @@ export default {
 };
 </script>
 
+
+
+
+
+<script>
+import SchoolIcon from 'vue-material-design-icons/School.vue';
+import CityIcon from 'vue-material-design-icons/City.vue';
+import AccountBoxIcon from 'vue-material-design-icons/AccountBox.vue';
+import InformationIcon from 'vue-material-design-icons/Information.vue';
+import CertificateIcon from 'vue-material-design-icons/Certificate.vue';
+
+export default {
+  components: {
+    SchoolIcon,
+    CityIcon,
+    AccountBoxIcon,
+    InformationIcon,
+    CertificateIcon,
+  },
+  data: () => ({
+    alumni: [
+      {
+        firstName: "Jaret",
+        lastName: "Hughes",
+        contact: {
+          phone: null,
+          email: "jaret.hughes13@gmail.com",
+        },
+        yearGraduated: "2016",
+        currentCity: "Washington, D.C.",
+        collegeAndMajor: "Xavier University – Political Science & Economy",
+        currentJob: "Record Examiner/Analyst, Federal Contractor",
+        jobDescription: "Supporting the Government in records keeping/compliance with civil rights regulations",
+        priorRoles: `
+          Legislative Intern in U.S. Senator Sherrod Brown’s Office  
+        interests: "Board Games, Economics, Political Theory",
+        canOfferAdviceOn: "Moving to a new city",
+      },
+    ],
+  }),
+  methods: {
+    generateMapUrl(city) {
+      const params = new URLSearchParams()
+      params.append('center', city)
+      params.append('markers', city)
+      params.append('zoom', '8')
+      params.append('size', '400x300')
+      params.append('scale', '2')
+      params.append('key', 'AIzaSyCbn_XwkKv3gWQs70ENa6TiXJUw9WADjso')
+      return `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`
+    }
+  }
+};
+</script>
+
 <style scoped>
 .title {
   font-weight: 700;
