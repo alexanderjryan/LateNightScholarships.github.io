@@ -125,22 +125,6 @@ export default {
           Platoon Leader for 1SFG(A) at JBLM in Tacoma, Washington. Provided logistical support for ammunition, water, and fuel.`,
         interests: "Dungeons and Dragons, Trekkie, golf, fan of Blue Jackets, Orioles, Patriots, and Ohio State",
         canOfferAdviceOn: "Military Planning. Personally, I was a 4-year AROTC scholarship winner at Ohio State. Can offer advice concerning joining the military whether a prospective servicemember is interested in enlisting or commissioning. Strongly recommend students consult both recruiters and veterans, like myself, to get the full scope of what they're committing to.",
-      },{
-        firstName: "Jaret",
-        lastName: "Hughes",
-        contact: {
-          phone: null,
-          email: "jaret.hughes13@gmail.com",
-        },
-        yearGraduated: "2016",
-        currentCity: "Washington, D.C.",
-        collegeAndMajor: "Xavier University – Political Science & Economy",
-        currentJob: "Record Examiner/Analyst, Federal Contractor",
-        jobDescription: "Supporting the Government in records keeping/compliance with civil rights regulations",
-        priorRoles: `
-          Legislative Intern in U.S. Senator Sherrod Brown’s Office  
-        interests: "Board Games, Economics, Political Theory",
-        canOfferAdviceOn: "Moving to a new city",
       },
     ],
   }),
@@ -160,63 +144,6 @@ export default {
 </script>
 
 
-
-
-      
-
-
-
-<script>
-import SchoolIcon from 'vue-material-design-icons/School.vue';
-import CityIcon from 'vue-material-design-icons/City.vue';
-import AccountBoxIcon from 'vue-material-design-icons/AccountBox.vue';
-import InformationIcon from 'vue-material-design-icons/Information.vue';
-import CertificateIcon from 'vue-material-design-icons/Certificate.vue';
-
-export default {
-  components: {
-    SchoolIcon,
-    CityIcon,
-    AccountBoxIcon,
-    InformationIcon,
-    CertificateIcon,
-  },
-  data: () => ({
-    alumni: [
-      {
-        firstName: "Elizabeth",
-        lastName: "Kahler",
-        contact: {
-          phone: null,
-          email: "ekahler14@mail.bw.edu",
-        },
-        yearGraduated: "2014",
-        currentCity: "Little Rock, Arkansas",
-        collegeAndMajor: "Baldwin Wallace University - Music Therapy/Psychology ",
-        currentJob: "Board-Certified Music Therapist at Arkansas Children’s Hospital",
-        jobDescription: "I’m a board-certified music therapist working in pediatrics. I’m currently working on developing the NICU music therapy program at Arkansas Children’s Hospital and am working to expand the music therapy program in the Infant/Toddler Unit. I am responsible for addressing the developmental, social, emotional, cognitive, and motor needs of patients. Additionally, I work with families as part of the bereavement team, assist with training interns, and collaborate with other members of the child life team at ACH..",
-        priorRoles: `
-          Music Therapist at Beyond Words Music & Dance Center in North Royalton: focused in special needs and education-based music therapy 
-        interests: "I love dancing, reading, traveling, baking, and spending time with my friends.",
-        canOfferAdviceOn: "-Anything music therapy related - I’ve worked in medical & with special needs! 
-        -Auditioning/applying for music school",
-      },
-    ],
-  }),
-  methods: {
-    generateMapUrl(city) {
-      const params = new URLSearchParams()
-      params.append('center', city)
-      params.append('markers', city)
-      params.append('zoom', '8')
-      params.append('size', '400x300')
-      params.append('scale', '2')
-      params.append('key', 'AIzaSyCbn_XwkKv3gWQs70ENa6TiXJUw9WADjso')
-      return `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`
-    }
-  }
-};
-</script>
 
 <style scoped>
 .title {
