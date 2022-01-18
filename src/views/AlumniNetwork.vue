@@ -125,46 +125,7 @@ export default {
           Platoon Leader for 1SFG(A) at JBLM in Tacoma, Washington. Provided logistical support for ammunition, water, and fuel.`,
         interests: "Dungeons and Dragons, Trekkie, golf, fan of Blue Jackets, Orioles, Patriots, and Ohio State",
         canOfferAdviceOn: "Military Planning. Personally, I was a 4-year AROTC scholarship winner at Ohio State. Can offer advice concerning joining the military whether a prospective servicemember is interested in enlisting or commissioning. Strongly recommend students consult both recruiters and veterans, like myself, to get the full scope of what they're committing to.",
-      },
-    ],
-  }),
-  methods: {
-    generateMapUrl(city) {
-      const params = new URLSearchParams()
-      params.append('center', city)
-      params.append('markers', city)
-      params.append('zoom', '8')
-      params.append('size', '400x300')
-      params.append('scale', '2')
-      params.append('key', 'AIzaSyCbn_XwkKv3gWQs70ENa6TiXJUw9WADjso')
-      return `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`
-    }
-  }
-};
-</script>
-
-
-
-
-
-<script>
-import SchoolIcon from 'vue-material-design-icons/School.vue';
-import CityIcon from 'vue-material-design-icons/City.vue';
-import AccountBoxIcon from 'vue-material-design-icons/AccountBox.vue';
-import InformationIcon from 'vue-material-design-icons/Information.vue';
-import CertificateIcon from 'vue-material-design-icons/Certificate.vue';
-
-export default {
-  components: {
-    SchoolIcon,
-    CityIcon,
-    AccountBoxIcon,
-    InformationIcon,
-    CertificateIcon,
-  },
-  data: () => ({
-    alumni: [
-      {
+      },{
         firstName: "Jaret",
         lastName: "Hughes",
         contact: {
@@ -197,6 +158,11 @@ export default {
   }
 };
 </script>
+
+
+
+
+      
 
 
 
