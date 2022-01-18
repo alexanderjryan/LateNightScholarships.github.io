@@ -4,7 +4,7 @@
       <div class="row mb-2">
         <div class="col-xs-12">
           <h2>Alumni Network</h2>
-          <div>The Perry Alumni Network is...</div>
+          <div>The MAssillon Perry Alumni Network is...</div>
         </div>
       </div>
       <div class="row">
