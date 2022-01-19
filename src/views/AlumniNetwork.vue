@@ -51,7 +51,9 @@
                       <span class="pr">About </span>
                       <information-icon :size="30"/>
                     </div>
-                    <span class="subtitle-2">Current City: </span><span>{{ alum.currentCity }}</span>
+                    <div>
+                      <span class="subtitle-2">Current City: </span><span>{{ alum.currentCity }}</span>
+                    </div>
                     <img :src="generateMapUrl(alum.currentCity)" class="city-map mb"/>
                     <div class="subtitle-2">Interests (Personal or Professional):</div>
                     <div>{{ alum.interests }}</div>
@@ -136,7 +138,7 @@ export default {
       params.append('zoom', '8')
       params.append('size', '400x300')
       params.append('scale', '2')
-      params.append('key', 'AIzaSyCbn_XwkKv3gWQs70ENa6TiXJUw9WADjso')
+      params.append('key', process.env.VUE_APP_GOOGLE_API_KEY)
       return `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`
     }
   }
