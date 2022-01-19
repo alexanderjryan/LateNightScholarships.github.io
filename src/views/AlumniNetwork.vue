@@ -4,7 +4,16 @@
       <div class="row mb-2">
         <div class="col-xs-12">
           <h2>Alumni Network</h2>
-          <div>The Perry Alumni Network is...</div>
+          <div>
+            The Perry Alumni Network consists of Perry graduates who have
+            offered to answer questions and provide mentorship to other students
+            and alumni. Our aim is to represent a large variety of backgrounds
+            and careers. You may reach out to anyone at your convenience using
+            the provided contact information. If you would like to join the
+            Alumni Network, please
+            <router-link :to="{ name: 'contact' }">contact us</router-link>
+            for a copy of the questionnaire.
+          </div>
         </div>
       </div>
       <div class="row">
@@ -45,17 +54,26 @@
                     <div class="subtitle-2">Description of Current Role:</div>
                     <div v-if="Array.isArray(alum.jobDescription)" class="pb">
                       <ul>
-                        <li v-for="role in alum.jobDescription" :key="role">{{ role }}</li>
+                        <li v-for="role in alum.jobDescription" :key="role">
+                          {{ role }}
+                        </li>
                       </ul>
                     </div>
                     <div v-else-if="typeof alum.jobDescription === 'object'">
                       {{ alum.jobDescription.summary }}
                       <ul>
-                        <li v-for="role in alum.jobDescription.roles" :key="role">{{ role }}</li>
+                        <li
+                          v-for="role in alum.jobDescription.roles"
+                          :key="role"
+                        >
+                          {{ role }}
+                        </li>
                       </ul>
                     </div>
                     <div v-else>{{ alum.jobDescription }}</div>
-                    <div v-if="alum.priorRoles" class="subtitle-2">Prior Roles:</div>
+                    <div v-if="alum.priorRoles" class="subtitle-2">
+                      Prior Roles:
+                    </div>
                     <div>{{ alum.priorRoles }}</div>
                   </div>
                 </div>
@@ -104,7 +122,12 @@
                     </div>
                     <div v-if="Array.isArray(alum.canOfferAdviceOn)">
                       <ul>
-                        <li v-for="advice in alum.canOfferAdviceOn" :key="advice">{{ advice }}</li>
+                        <li
+                          v-for="advice in alum.canOfferAdviceOn"
+                          :key="advice"
+                        >
+                          {{ advice }}
+                        </li>
                       </ul>
                     </div>
                     <div v-else>{{ alum.canOfferAdviceOn }}</div>
@@ -191,12 +214,14 @@ export default {
           "Board-Certified Music Therapist at Arkansas Children’s Hospital",
         jobDescription:
           "I’m a board-certified music therapist working in pediatrics. I’m currently working on developing the NICU music therapy program at Arkansas Children’s Hospital and am working to expand the music therapy program in the Infant/Toddler Unit. I am responsible for addressing the developmental, social, emotional, cognitive, and motor needs of patients. Additionally, I work with families as part of the bereavement team, assist with training interns, and collaborate with other members of the child life team at ACH..",
-        priorRoles: 'Music Therapist at Beyond Words Music & Dance Center in North Royalton: focused in special needs and education-based music therapy',
-        interests: "I love dancing, reading, traveling, baking, and spending time with my friends.",
+        priorRoles:
+          "Music Therapist at Beyond Words Music & Dance Center in North Royalton: focused in special needs and education-based music therapy",
+        interests:
+          "I love dancing, reading, traveling, baking, and spending time with my friends.",
         canOfferAdviceOn: [
-          'Anything music therapy related',
-          'I’ve worked in medical & with special needs!',
-          'Auditioning/applying for music school',
+          "Anything music therapy related",
+          "I’ve worked in medical & with special needs!",
+          "Auditioning/applying for music school",
         ],
       },
 
@@ -216,16 +241,16 @@ export default {
         currentJob:
           "Education Coordinator for After-School All-Stars (nonprofit)",
         jobDescription: [
-          'Develop enrichment curriculum for programming',
-          'Evaluate staff to make sure they implement curriculum effectively',
-          'Evaluate students to collect data on social-emotional and academic growth for grant funding and to help steer direction of curriculum during the school year',
+          "Develop enrichment curriculum for programming",
+          "Evaluate staff to make sure they implement curriculum effectively",
+          "Evaluate students to collect data on social-emotional and academic growth for grant funding and to help steer direction of curriculum during the school year",
         ],
         priorRoles: "Teach for America Corps Member (New Mexico)",
-        interests: 'Education reform, Social Justice, Survivor',
+        interests: "Education reform, Social Justice, Survivor",
         canOfferAdviceOn: [
-          'Finding your place at college/involvement',
-          'Not knowing what you want to do going into college or after college',
-          'Working in nonprofit',
+          "Finding your place at college/involvement",
+          "Not knowing what you want to do going into college or after college",
+          "Working in nonprofit",
         ],
       },
       {
@@ -261,20 +286,22 @@ export default {
         collegeAndMajor: "American University – International Relations",
         currentJob: "Donation and Volunteer Coordinator at ACCESS",
         jobDescription: {
-          summary: 'I am a Donation and Volunteer Coordinator on the Advancement team at ACCESS. ACCESS is a shelter for women and children experiencing homelessness in Summit County. The agency encouraged the development of self-esteem and the attainment of self-sufficiency through its commitment of providing a holistic, safe, and supportive environment through its programs of housing, advocacy, and empowerment. Through my role, I perform the following tasks',
+          summary:
+            "I am a Donation and Volunteer Coordinator on the Advancement team at ACCESS. ACCESS is a shelter for women and children experiencing homelessness in Summit County. The agency encouraged the development of self-esteem and the attainment of self-sufficiency through its commitment of providing a holistic, safe, and supportive environment through its programs of housing, advocacy, and empowerment. Through my role, I perform the following tasks",
           roles: [
-            'Recruit, train, and supervise volunteers to help with fundraisers, administrative tasks, general shelter operation, child programming, meal assistance, and any other needs.',
-            'Solicit, collect, inventory, and manage all in-kind (item) donations given to the agency',
-            'Record, track, and recognize all in-kind and monetary donations',
+            "Recruit, train, and supervise volunteers to help with fundraisers, administrative tasks, general shelter operation, child programming, meal assistance, and any other needs.",
+            "Solicit, collect, inventory, and manage all in-kind (item) donations given to the agency",
+            "Record, track, and recognize all in-kind and monetary donations",
           ],
         },
         priorRoles: "AmeriCorps VISTA at Stark Fresh",
-        interests: 'I enjoy spending time with family and friends, playing with my dogs, cooking and trying new recipes, and traveling.',
+        interests:
+          "I enjoy spending time with family and friends, playing with my dogs, cooking and trying new recipes, and traveling.",
         canOfferAdviceOn: [
-          'Going to an out of state school',
-          'Working in a nonprofit',
-          'Struggling to figure out what to do with your degree',
-        ]
+          "Going to an out of state school",
+          "Working in a nonprofit",
+          "Struggling to figure out what to do with your degree",
+        ],
       },
       {
         firstName: "Caitlyn",
@@ -291,7 +318,8 @@ export default {
         jobDescription:
           "Supervise 15 employees in production facility to ensure production lines are running efficiently. Also, has worked as raw material coordinator (purchase all materials need for production, bottles, caps, labels, etc.) and warehouse inventory manager (ensure accuracy of all inbound and outbound loads and maintain accurate inventory numbers). ",
         priorRoles: null,
-        interests: 'Professional: Next goal is to be site production planner. Personal: Enjoy travel, hiking, wheel ceramics.',
+        interests:
+          "Professional: Next goal is to be site production planner. Personal: Enjoy travel, hiking, wheel ceramics.",
         canOfferAdviceOn:
           "OSU student organizations and programs, including the Scholars program, STEP, and Greek life",
       },
@@ -307,11 +335,12 @@ export default {
         collegeAndMajor: "John Carroll University – Finance and Economic",
         currentJob: "Senior Economic & Valuations Associate @ KPMG",
         jobDescription: {
-          summary: "I am a senior associate on the Economics & Valuation Services team at KPMG in the Chicago office. My team is comprised of PhD economists, lawyers, and accountants from across the world who collaborate to provide economic and financial consulting services to multinational corporations. Through my role, I perform the following tasks:",
+          summary:
+            "I am a senior associate on the Economics & Valuation Services team at KPMG in the Chicago office. My team is comprised of PhD economists, lawyers, and accountants from across the world who collaborate to provide economic and financial consulting services to multinational corporations. Through my role, I perform the following tasks:",
           roles: [
-            'Work with economists and vice presidents at large firms to optimize operations and create financial models',
-            'Build Python and excel programs / tools to automate the analysis of client data',
-            'Design and implement financial policies for companies',
+            "Work with economists and vice presidents at large firms to optimize operations and create financial models",
+            "Build Python and excel programs / tools to automate the analysis of client data",
+            "Design and implement financial policies for companies",
           ],
         },
         priorRoles:
@@ -319,8 +348,8 @@ export default {
         interests:
           "Biking and playing volleyball, frequenting local coffee shops, operating the Late Night Scholarships fund, writing and researching, listening to records",
         canOfferAdviceOn: [
-          'Students interested in majoring in finance or economics',
-          'Students hoping to intern at top economic consulting institutions or the Federal Reserve',
+          "Students interested in majoring in finance or economics",
+          "Students hoping to intern at top economic consulting institutions or the Federal Reserve",
         ],
       },
       {
@@ -335,16 +364,17 @@ export default {
         collegeAndMajor: "Ohio State University – Computer Science",
         currentJob: "Sr. Systems Engineer @ Ally Bank",
         jobDescription: {
-          summary: 'I am on the Cloud Enablement team at Ally. We work with application teams to deploy their apps on Amazon Web Services. This can be broken down into 2 major areas of focus:',
+          summary:
+            "I am on the Cloud Enablement team at Ally. We work with application teams to deploy their apps on Amazon Web Services. This can be broken down into 2 major areas of focus:",
           roles: [
-            'Training and onboarding teams, helping architect their applications, write and deploy infrastructure as code, and providing day to day support',
-           'Building internal tools to automate deployment, reporting, training, and onboarding tasks',
+            "Training and onboarding teams, helping architect their applications, write and deploy infrastructure as code, and providing day to day support",
+            "Building internal tools to automate deployment, reporting, training, and onboarding tasks",
           ],
         },
         priorRoles: "Salesforce Developer @ Acumen Solutions",
         interests:
           "Running, making and eating ice cream, maintaining the Late Night Scholarships website, losing to my siblings in every video game except Mario Kart",
-        canOfferAdviceOn: 'Majoring in computer science',
+        canOfferAdviceOn: "Majoring in computer science",
       },
       {
         firstName: "Tim",
@@ -367,8 +397,10 @@ export default {
 	studies using models of human airway cells grown in
 	culture as well as analysis of clinical samples.`,
         priorRoles: null,
-        interests: "Running, juggling, hiking/taking pictures of fungi and other cool things I spot on trails",
-        canOfferAdviceOn: "Applying to PhD programs or students wanting to discuss entering med school ",
+        interests:
+          "Running, juggling, hiking/taking pictures of fungi and other cool things I spot on trails",
+        canOfferAdviceOn:
+          "Applying to PhD programs or students wanting to discuss entering med school ",
       },
       {
         firstName: "Josh",
@@ -383,30 +415,37 @@ export default {
           "Kent State University – Economics, Minor in Data Analytics",
         currentJob: "Data Analyst @ Ohio Gratings, Inc",
         jobDescription: {
-          summary: 'I am a data analyst on the ERP team at Ohio Gratings. My team works on development and implementation of our ERP system and its integration into other businesses systems. Typical tasks in my role are:',
+          summary:
+            "I am a data analyst on the ERP team at Ohio Gratings. My team works on development and implementation of our ERP system and its integration into other businesses systems. Typical tasks in my role are:",
           roles: [
-            'Building and maintaining an ETL layer to combine multiple cloud data sources into one localized reporting database.',
-            'Creating visual analytics with tools like PowerBI and Tableau.',
-            'Design and implement new processes and applications in our ERP system.',
+            "Building and maintaining an ETL layer to combine multiple cloud data sources into one localized reporting database.",
+            "Creating visual analytics with tools like PowerBI and Tableau.",
+            "Design and implement new processes and applications in our ERP system.",
           ],
         },
         priorRoles: null,
-        interests: "Fishing and spending time outdoors, trying out every brew method for coffee, playing guitar, continued education.",
+        interests:
+          "Fishing and spending time outdoors, trying out every brew method for coffee, playing guitar, continued education.",
         canOfferAdviceOn: [
-          'Deciding whether to attend college for students who would be first-generation college students',
-          'Students interested in data science',
+          "Deciding whether to attend college for students who would be first-generation college students",
+          "Students interested in data science",
         ],
       },
     ],
   }),
   created() {
-    this.alumni.sort((a,b) => (a.lastName > b.lastName) ? 1 : ((b.lastName > a.lastName) ? -1 : 0))
+    this.alumni.sort((a, b) =>
+      a.lastName > b.lastName ? 1 : b.lastName > a.lastName ? -1 : 0
+    );
   },
   methods: {
     generateMapUrl(city) {
       const params = new URLSearchParams();
       let zoomLevel = "8";
-      if (!city.toLowerCase().endsWith('oh') && !city.toLowerCase().endsWith('ohio')) {
+      if (
+        !city.toLowerCase().endsWith("oh") &&
+        !city.toLowerCase().endsWith("ohio")
+      ) {
         zoomLevel = "6";
       }
       params.append("center", city);

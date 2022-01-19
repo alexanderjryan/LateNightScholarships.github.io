@@ -30,7 +30,7 @@
           <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
             <ul class="nav navbar-nav navbar-right">
               <li><router-link :to="{ name: 'home' }">Home</router-link></li>
-              <!-- <li><router-link :to="{ name: 'alumni-network' }">Alumni Network</router-link></li> -->
+              <li><router-link :to="{ name: 'alumni-network' }">Alumni Network</router-link></li>
               <li><router-link :to="{ name: 'about' }">About</router-link></li>
               <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
               <li>
