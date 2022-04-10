@@ -6,6 +6,7 @@ import About from '@/views/About.vue';
 import Contact from '@/views/Contact.vue';
 import Donate from '@/views/Donate.vue';
 import Apply from '@/views/Apply.vue';
+import Vote from '@/views/Vote.vue';
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/apply',
     name: 'apply',
     component: Apply,
+  },
+  {
+    path: '/vote',
+    name: 'vote',
+    component: Vote,
   },
   {
     path: '*',
