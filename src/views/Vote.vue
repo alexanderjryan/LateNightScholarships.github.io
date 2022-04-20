@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div v-if="!unauthenticated && !user">Loading...</div>
     <div v-if="unauthenticated" class="get-out text-center">
       You must receive an invite to access this page
     </div>
@@ -97,7 +98,6 @@
                     type="text"
                     class="form-control"
                     id="eithnicity"
-                    placeholder="Ethnicity"
                     disabled
                   />
                 </div>
@@ -113,7 +113,6 @@
                     class="form-control"
                     rows="2"
                     name="disabilities"
-                    placeholder="Disabilities (Optional)"
                     id="disabilities"
                     disabled
                   ></textarea>
@@ -133,7 +132,7 @@
                   <div class="col-md-6">
                     <label for="graduationAttestation"
                       >Please confirm you are on track to graduate in May
-                      2022<span class="lns-required">*</span></label
+                      2022</label
                     >
                     <div class="radio">
                       <label>
@@ -164,9 +163,7 @@
                   </div>
                   <div class="col-md-6">
                     <label for="gpa"
-                      >What is your unweighted GPA?<span class="lns-required"
-                        >*</span
-                      ></label
+                      >What is your unweighted GPA?</label
                     >
                     <div v-for="gpa in gpaOptions" :key="gpa" class="radio">
                       <label>
@@ -185,9 +182,8 @@
                   <div class="col-md-6">
                     <label for="dual-credit-courses"
                       >How many dual credit courses have you taken (including
-                      currently enrolled)?<span class="lns-required"
-                        >*</span
-                      ></label
+                      currently enrolled)?
+                      </label
                     >
                     <div
                       v-for="count in dcapOptions"
@@ -212,7 +208,7 @@
                   <div class="col-md-6">
                     <label for="ap-courses"
                       >How many AP courses have you taken (including currently
-                      enrolled)?<span class="lns-required">*</span></label
+                      enrolled)?</label
                     >
                     <div
                       v-for="count in dcapOptions"
@@ -270,10 +266,7 @@
                     <label for="university-accepted"
                       >If you have been accepted by a college or university that
                       you plan to attend, please provide the name of the
-                      institution. If not, please answer "N/A"<span
-                        class="lns-required"
-                        >*</span
-                      ></label
+                      institution. If not, please answer "N/A"</label
                     >
                     <textarea
                       v-model="selectedApplication.plannedUniversity"
@@ -297,7 +290,6 @@
                       rows="2"
                       class="form-control"
                       id="university-applied"
-                      placeholder="College(s)"
                       disabled
                     />
                   </div>
@@ -307,17 +299,13 @@
                     <label for="intended-major"
                       >What is your intended major? If you have not identified a
                       major, which area of study are you most seriously
-                      considering (STEM, Business, Humanities, Arts, etc.)?<span
-                        class="lns-required"
-                        >*</span
-                      ></label
+                      considering (STEM, Business, Humanities, Arts, etc.)?</label
                     >
                     <textarea
                       v-model="selectedApplication.majorInterest"
                       rows="2"
                       class="form-control"
                       id="intended-major"
-                      placeholder="Major/Interest"
                       disabled
                     />
                   </div>
@@ -507,6 +495,30 @@
               </div>
             </div>
           </div>
+          <div class="col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  Transcript
+                </h3>
+              </div>
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-xs-12">
+                    If the transcript does not display properly,
+                    <a target="_blank" :href="`https://lns-application-public-transcripts.s3.amazonaws.com/${selectedApplication.transcript}`">click here</a>
+                    to open it in a new tab.
+                    <embed
+                      :src="`https://lns-application-public-transcripts.s3.amazonaws.com/${selectedApplication.transcript}`"
+                      width="100%"
+                      height="500"
+                      type="application/pdf"
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-xs-12 d-flex" style="justify-content: space-between">
             <button :disabled="selectedApplicationId == 0" @click="showApplication(selectedApplicationId - 1)">Previous</button>
             <button :disabled="selectedApplicationId == applications.length - 1" @click="showApplication(selectedApplicationId + 1)">Next</button>
@@ -550,7 +562,7 @@
             </div>
           </div>
         </div>
-        <div v-show="submitted" id="sent-message">Thank you! Your vote has been recorded.</div>
+        <div v-show="submitted" id="sent-message"><h3>Thank you! Your vote has been recorded.</h3></div>
       </div>
     </div>
   </div>
@@ -644,7 +656,13 @@ export default {
       this.showVotePanel = false;
       this.selectedApplicationId = index;
       this.selectedApplication = this.applications[index];
-      scroll(0,0)
+      scroll(0,0);
+
+      this.$nextTick(() => {
+        [...document.querySelectorAll('textarea')].forEach(textarea => {
+          this.resizeTextarea({ target: textarea });
+        });
+      });
     },
     voteClicked() {
       this.selectedApplicationId = null;
@@ -692,7 +710,12 @@ export default {
         this.validationErrors.push('Vote 3 is required');
       }
       return this.validationErrors.length === 0
-    }
+    },
+    resizeTextarea(e) {
+      let area = e.target;
+      area.style.height = 0;
+      area.style.height = area.scrollHeight + 5 + 'px';
+    },
   },
 };
 </script>
@@ -705,5 +728,10 @@ export default {
 
 .vote-button {
   margin-left: 10px;
+}
+
+input:disabled,
+textarea:disabled {
+  color: #141414;
 }
 </style>

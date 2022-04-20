@@ -431,6 +431,37 @@ export default {
           "Students interested in data science",
         ],
       },
+      {
+        firstName: "Andrew",
+        lastName: "Koehler, P.S.",
+        contact: {
+          phone: "330-224-2262",
+          email: "Andrewpkoehler@hotmail.com",
+        },
+        yearGraduated: "2006",
+        currentCity: "Streetsboro, OH",
+        collegeAndMajor:
+          "The University of Akron, B.S. in Surveying and Mapping",
+        currentJob: "Cleveland Metroparks: Surveyor Manager & The University of Akron: Adjunct Faculty in Surveying and Mapping",
+        jobDescription: {
+          summary:
+            "I currently manage all in house surveying services for the 18 reservations, 8 golf courses, and Zoo in the 24,000 + Acre Cleveland Metroparks system. Working in the Planning and Design department, My role closely integrates with Civil Engineers, Architects, Landscape Architects, Planners, Project Managers, and GIS team. This includes field to finish roles in:",
+          roles: [
+            "Preparing boundary surveys and legal descriptions of existing and newly acquired properties, leases, and easements.",
+            "Providing topographic surveys, base mapping, and construction layout for capital improvement projects.",
+            "Coastal bathymetric (underwater) mapping and monitoring surveys",
+            "Title review for new property acquisitions",
+            "Creating deliverables in AutoCAD CIVIL3D for all of the above",
+          ],
+        },
+        priorRoles: "Stark County Engineers Office: Survey Co-op and Surveyor",
+        interests:
+          "Running, Biking, Skiing, Live Music, Guitar",
+        canOfferAdviceOn: [
+          "Careers and education in Surveying, Civil Engineering, and Constructing Management.",
+          "Attaining state licensure as a Professional Surveyor.",
+        ],
+      },
     ],
   }),
   created() {
