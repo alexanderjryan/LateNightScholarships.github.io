@@ -31,11 +31,11 @@
         <div class="row">
           <div class="col-md-12 section-container-spacer">
             <div class="text-center">
-              <h2>Perry Class of 2021 Winners</h2>
+              <h2>Perry Class of 2022 Winners</h2>
               <p>
-                The Late Night Scholarships fund awarded 3 scholarships to
-                graduating seniors in the Perry Class of 2021. The winners
-                include Cat Hughes, Paul Wagner, and Kailee Wilson.
+                The Late Night Scholarships fund awarded 4 scholarships to
+                graduating seniors in the Perry Class of 2022. The winners
+                include Timara Berry, Anne Fahrner, Grace Miller, and Jude Warstler.
                 Congratulations to our winners!
               </p>
             </div>
@@ -43,75 +43,61 @@
         </div>
         <div class="row winner">
           <div class="col-md-4">
-            <div class="fa-container trophy-icon">
-              <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+            <div class="winner-photo">
+              <img src="@/assets/images/winners/berry.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Kailee Wilson</h3>
+              <h3>Timara Berry</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Kailee Wilson will be attending the Honors College at the Ohio
-              State University this fall to major in Chemistry with a minor in
-              Biochemistry on a pre-medical track. Kailee chose Ohio State
-              because it's a big school in a big city which will provide her
-              many opportunities while not being too far from home. She is
-              excited to attend all Ohio State football games and meet new
-              people with differing backgrounds. In her free time, Kailee enjoys
-              traveling, spending time with her siblings, and staying active.
+              Timara Berry will be attending Xavier University or University of Cincinnati to major in Political Science.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
-            <div class="fa-container trophy-icon">
-              <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+            <div class="winner-photo">
+              <img src="@/assets/images/winners/fahrner.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Paul Wagner</h3>
+              <h3>Anne Fahrner</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Paul Wagner will be attending Kent State University Stark Campus
-              this fall to double major in Political Science (with a
-              concentration in Constitutional Law) and Music Technology (with
-              concentrations in Audio Recording and Music Production.) He chose
-              Kent State Stark for its renowned, unique-to-Ohio Music Technology
-              program and its close proximity to home. After completing his
-              undergraduate degree, Paul plans on securing a law degree and
-              interning with a major entertainment corporation to publish his
-              original songs. His life’s ambition is to combine his two fields
-              of study to advocate for marginalized communities. In his free
-              time, Paul enjoys writing poetry, reading, composing and listening
-              to music, and playing the piano. He is extremely excited about
-              attending university classes and is looking forward to engaging
-              intellectually with his professors and peers.
+              Anne Fahrner will be attending University of Akron to major in Chemical Engineering.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
-            <div class="fa-container trophy-icon">
-              <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+            <div class="winner-photo">
+              <img src="@/assets/images/winners/miller.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Cat Hughes</h3>
+              <h3>Grace Miller</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Cat Hughes will be attending Baldwin Wallace University this fall
-              to double major in Adolescent Young Adult Education and English.
-              Cat chose BW based on its well-known education program, its
-              proximity to Cleveland, and its strong value of the arts. During
-              her free time, Cat enjoys playing tennis, reading, and hanging out
-              with her friends. Cat is looking forward to experiencing the
-              numerous well-known arts programs that BW offers, such as concerts
-              from the Conservatory, and seeing the Theatre productions that the
-              school puts on. She also looks forward to the many opportunities
-              that the education program has to offer for its students.
+              Grace Miller will be attending Kent State University to major in Early Childhood Education.
+            </p>
+          </div>
+        </div>
+        <div class="row winner">
+          <div class="col-md-4">
+            <div class="winner-photo">
+              <img src="@/assets/images/winners/warstler.jpg"/>
+            </div>
+            <div class="text-center">
+              <h3>Jude Warstler</h3>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p>
+              Jude Warstler will be attending Florida International University or University of Cincinnati to major in Marketing.
             </p>
           </div>
         </div>

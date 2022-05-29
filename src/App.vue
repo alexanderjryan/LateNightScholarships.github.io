@@ -228,6 +228,15 @@ export default {
   margin-top: 5px;
 }
 
+.winner-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.winner-photo img {
+  max-width: 200px;
+}
+
 .winner {
   margin-top: 10px;
   min-height: 150px;
