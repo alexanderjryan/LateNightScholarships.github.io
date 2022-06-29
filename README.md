@@ -1,5 +1,7 @@
 # late-night-scholarships
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/alexanderjryan/LateNightScholarships.github.io/tree/source])
+
 ## Project setup
 ```
 npm install
