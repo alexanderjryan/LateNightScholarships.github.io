@@ -3,6 +3,14 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm install && npm run serve
+  - init: npm install
+    command: npm run serve
+  - command: git status
+    openMode: split-right
 
+ports:
+  - name: Web App
+    description: The main application web server
+    port: 8080
+    onOpen: open-browser
 
