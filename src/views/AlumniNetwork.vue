@@ -275,6 +275,22 @@ export default {
           "Becoming licensed for chemical dependency treatment in Ohio, trauma-informed materials",
       },
       {
+        firstName: "Curstynn",
+        lastName: "Marks",
+        contact: {
+          phone: null,
+          email: " curstynn.marks@gmail.com ",
+        },
+        yearGraduated: "2017",
+        currentCity: "Canton, Ohio",
+        collegeAndMajor: "Emory University  – Economics",
+        currentJob: "Enterprise Payments Analyst at KeyBank",
+        jobDescription:
+          "Data analytics and strategy to support the product development of financial services and technology",
+        interests: "Big Data, labor market research, health economics, Queer in Canton",
+        canOfferAdviceOn: "College admissions, Questbridge (low-income scholar program), getting into coding, community involvement, LGBT life",
+      },
+      {
         firstName: "Jesse",
         lastName: "Nodo",
         contact: {
