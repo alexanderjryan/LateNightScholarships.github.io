@@ -529,17 +529,17 @@ export default {
           email: "shannon.howley97@gmail.com ",
           facebook: "https://www.facebook.com/shannon.howley.3/",
           instagram: "https://www.instagram.com/shannon.howley16/",
-          twitter: "https://twitter.com/nickgardner19/",
+          twitter: null,
           linkedin: "https://www.linkedin.com/in/shannon-howley-2382b612b/"
         },
         yearGraduated: "2016",
         currentCity: "Newport, RI",
         collegeAndMajor: "George Mason University – Government and International Politics (undergraduate); Wake Forest University - Master's Degree in Communication",
-        currentJob: "Ph.D. Student in Marine Affairs at Rhode Island University",
-        jobDescription: "I am a research assistant supporting departmental research into offshore windturbines along the eastern coast. Our research focuses on issues of environmental justice and communication strategies related to Indiginous populations in the Northeast. My contributions to the project include supporting conducting interviews and surveys, performing literature reviews of relevant research, and supporting reseearch design efforts.",
-        priorRoles: "Graduate Assistant and Assistant Debate Coach @ Wake Forest University, Communications Intern @ Greenlight Fund, and Research Intern @ Fahe, Professional Services Council, and Sharrod Brown's Congressional Office",
+        currentJob: "Ph.D. Student in Marine Affairs at University of Rhode Island",
+        jobDescription: "I am a research assistant supporting departmental research into offshore windturbines along the eastern coast. Our research focuses on issues of environmental justice and communication strategies related to Indigenous populations in the Northeast. My contributions to the project include supporting conducting interviews and surveys, performing literature reviews of relevant research, and supporting reseearch design efforts.",
+        priorRoles: "Graduate Assistant and Assistant Debate Coach @ Wake Forest University, Communications Fellow @ Greenlight Fund, and Research Intern @ Fahe, Professional Services Council, and Sherrod Brown's Congressional Office",
         interests:
-          "Hiking, reading, playing board games, coaching debate, and ranting",
+          "Hiking, reading, playing board games, and coaching debate",
         canOfferAdviceOn: [
           "Students interested in collegiate-level speech and debate",
           "Students interested in working for policy-oriented nonprofits or going into academia",
