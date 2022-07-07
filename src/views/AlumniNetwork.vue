@@ -111,6 +111,22 @@
                       <span class="subtitle-2">Email: </span
                       ><span>{{ alum.contact.email }}</span>
                     </div>
+                    <div v-if="alum.contact.facebook">
+                      <span class="subtitle-2">FaceBook: </span
+                      ><span>{{ alum.contact.facebook }}</span>
+                    </div>
+                     <div v-if="alum.contact.twitter">
+                      <span class="subtitle-2">Twitter: </span
+                      ><span>{{ alum.contact.twitter }}</span>
+                    </div>
+                     <div v-if="alum.contact.instagram">
+                      <span class="subtitle-2">Instagram: </span
+                      ><span>{{ alum.contact.instagram }}</span>
+                    </div>
+                     <div v-if="alum.contact.linkedin">
+                      <span class="subtitle-2">LinkedIn: </span
+                      ><span>{{ alum.contact.linkedin }}</span>
+                    </div>
                   </div>
                 </div>
 
@@ -165,7 +181,10 @@ export default {
         contact: {
           phone: null,
           email: "calvinecurtin@gmail.com",
-        },
+          facebook: "https://www.facebook.com/calvin.e.curtin/",
+          twitter: null,
+          instagram: "https://www.instagram.com/curtincalvin/",
+          linkedin: "https://www.linkedin.com/in/calvincurtin/"},
         yearGraduated: "2013",
         currentCity: "Brecksville, Ohio",
         collegeAndMajor:
@@ -188,6 +207,11 @@ export default {
         contact: {
           phone: null,
           email: " jaret.hughes13@gmail.com ",
+          facebook: "https://www.facebook.com/jaret.hughes.7/",
+          twitter: "https://mobile.twitter.com/dumbnoodlebrain/",
+          instagram: "https://www.instagram.com/j_hughes601/",
+          linkedin: "https://www.linkedin.com/in/jaret-hughes-556242127/"
+
         },
         yearGraduated: "2016",
         currentCity: "Washington, D.C.",
@@ -205,6 +229,10 @@ export default {
         contact: {
           phone: null,
           email: "ekahler14@mail.bw.edu",
+          facebook: "https://www.facebook.com/ekahler1/",
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/elizabeth-kahler/"
         },
         yearGraduated: "2014",
         currentCity: "Little Rock, Arkansas",
@@ -231,6 +259,10 @@ export default {
         contact: {
           phone: null,
           email: "samanthalechner234@gmail.com",
+          facebook: "https://www.facebook.com/sam.lechner1/",
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/samanthalechner/"
         },
         yearGraduated: "2014",
         currentCity: "Columbus, Ohio",
@@ -259,6 +291,10 @@ export default {
         contact: {
           phone: "330-806-0779",
           email: "annamayliebler@gmail.com ",
+          facebook: "https://www.facebook.com/anna.liebler.3/",
+          twitter: null,
+          instagram: "https://www.instagram.com/anna.may628/",
+          linkedin: null
         },
         yearGraduated: "2012",
         currentCity: "Canton, Ohio",
@@ -280,6 +316,10 @@ export default {
         contact: {
           phone: null,
           email: " curstynn.marks@gmail.com ",
+          facebook: "https://www.facebook.com/curstynn/",
+          instagram: null,
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/curstynn-marks-ab7479160/"
         },
         yearGraduated: "2017",
         currentCity: "Canton, Ohio",
@@ -296,6 +336,10 @@ export default {
         contact: {
           phone: null,
           email: "nodojm@gmail.com",
+          facebook: "https://www.facebook.com/Jessaahhh/",
+          twitter: "https://mobile.twitter.com/jodoooo",
+          instagram:"https://www.instagram.com/jodooo_/",
+          linkedin: "https://www.linkedin.com/in/jessicanodo/"
         },
         yearGraduated: "2016",
         currentCity: "Stow, Ohio",
@@ -325,6 +369,10 @@ export default {
         contact: {
           phone: null,
           email: "caitlyn.pruett@pepsico.com",
+          facebook: "https://www.facebook.com/caitlyn.pruett/",
+          twitter:"https://mobile.twitter.com/caitlyn_pruett/",
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/caitlyn-pruett-9a9772129/"
         },
         yearGraduated: "2015",
         currentCity: "Cincinnati, Ohio",
@@ -345,27 +393,24 @@ export default {
         contact: {
           phone: null,
           email: "alexryan2015@gmail.com",
+          facebook: "https://www.facebook.com/alexryan2015/",
+          instagram: null,
+          twitter: null,
+          linkedin: "https://www.facebook.com/alexryan2015/"
         },
         yearGraduated: "2015",
-        currentCity: "Chicago, IL",
+        currentCity: "Columbus, OH",
         collegeAndMajor: "John Carroll University – Finance and Economic",
-        currentJob: "Senior Economic & Valuations Associate @ KPMG",
-        jobDescription: {
-          summary:
-            "I am a senior associate on the Economics & Valuation Services team at KPMG in the Chicago office. My team is comprised of PhD economists, lawyers, and accountants from across the world who collaborate to provide economic and financial consulting services to multinational corporations. Through my role, I perform the following tasks:",
-          roles: [
-            "Work with economists and vice presidents at large firms to optimize operations and create financial models",
-            "Build Python and excel programs / tools to automate the analysis of client data",
-            "Design and implement financial policies for companies",
-          ],
-        },
-        priorRoles:
-          "Statistics and Analysis Associate @ the Federal Reserve Bank of Cleveland",
+        currentJob: "PhD Student in Environmental Economics at the Ohio State University",
+        jobDescription: "I am a graduate assistant in the Economics Department at Ohio State University researching applied environmental economics.",
+        priorRoles: "Senior Economic & Valuations Associate @ KPMG, Statistics and Analysis Associate @ the Federal Reserve Bank of Cleveland",
         interests:
           "Biking and playing volleyball, frequenting local coffee shops, operating the Late Night Scholarships fund, writing and researching, listening to records",
         canOfferAdviceOn: [
           "Students interested in majoring in finance or economics",
           "Students hoping to intern at top economic consulting institutions or the Federal Reserve",
+          "Deciding whether to enter the job market or apply for masters/PhD programs",
+          "Curating undergraduate schedule to prepare for masters/PhD applications"
         ],
       },
       {
@@ -374,6 +419,10 @@ export default {
         contact: {
           phone: null,
           email: "adamtyler07@gmail.com",
+          facebook: "https://www.facebook.com/profile.php?id=100011882679423/",
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/adam-tyler-389236107/"
         },
         yearGraduated: "2013",
         currentCity: "Charlotte, North Carolina",
@@ -398,6 +447,10 @@ export default {
         contact: {
           phone: null,
           email: "taw46@case.edu",
+          facebook: "https://www.facebook.com/KiloWatt17/",
+          twitter: "https://mobile.twitter.com/TimothyAWatkins/",
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/timothy-watkins-93735273/"
         },
         yearGraduated: "2013",
         currentCity: "New Haven, CT",
@@ -424,22 +477,18 @@ export default {
         contact: {
           phone: null,
           email: "josh.white9611@gmail.com",
+          facebook: null,
+          instagram: null,
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/joshua-white-b418a010a/"
         },
         yearGraduated: "2015",
         currentCity: "Canton, OH",
         collegeAndMajor:
           "Kent State University – Economics, Minor in Data Analytics",
-        currentJob: "Data Analyst @ Ohio Gratings, Inc",
-        jobDescription: {
-          summary:
-            "I am a data analyst on the ERP team at Ohio Gratings. My team works on development and implementation of our ERP system and its integration into other businesses systems. Typical tasks in my role are:",
-          roles: [
-            "Building and maintaining an ETL layer to combine multiple cloud data sources into one localized reporting database.",
-            "Creating visual analytics with tools like PowerBI and Tableau.",
-            "Design and implement new processes and applications in our ERP system.",
-          ],
-        },
-        priorRoles: null,
+        currentJob: "",
+        jobDescription: "I am a financial analyst on the Financial Analysis and Planning (FP&A) team at Timken.",
+        priorRoles: "Data Analyst @ Ohio Gratings, Inc",
         interests:
           "Fishing and spending time outdoors, trying out every brew method for coffee, playing guitar, continued education.",
         canOfferAdviceOn: [
@@ -448,11 +497,65 @@ export default {
         ],
       },
       {
+        firstName: "Nick",
+        lastName: "Gardener",
+        contact: {
+          phone: null,
+          email: "nicholasgardner2015@gmail.com",
+          facebook: null,
+          instagram: "https://www.instagram.com/nickgardner19/",
+          twitter: "https://twitter.com/nickgardner19/",
+          linkedin: null
+        },
+        yearGraduated: "2015",
+        currentCity: "Los Angelas, CA",
+        collegeAndMajor: "Graduated from Los Angelas Acting School - 2019",
+        currentJob: "Actor",
+        jobDescription: "I am actively seeking auditions for casting roles. I have been casted as background acting on Blackish and Black Monday, among others. I recently received my final voucher to join the Actors Guild.",
+        priorRoles: "Landscaping @ X, Waitor @ Y, Delivery Truck Driver @ Amazon, Camera and Equipment Staff at Studio Z",
+        interests:
+          "Boxing, playing guitar, surfing, reading, and writing",
+        canOfferAdviceOn: [
+          "Students deciding whether to attend college",
+          "Individuals interested in acting, personal training or moving to a big city to 'chase the dream'",
+          "Curating undergraduate schedule to prepare for masters/PhD applications"
+        ],
+      },
+      {
+        firstName: "Shannon",
+        lastName: "Howley",
+        contact: {
+          phone: null,
+          email: "shannon.howley97@gmail.com ",
+          facebook: "https://www.facebook.com/shannon.howley.3/",
+          instagram: "https://www.instagram.com/shannon.howley16/",
+          twitter: "https://twitter.com/nickgardner19/",
+          linkedin: "https://www.linkedin.com/in/shannon-howley-2382b612b/"
+        },
+        yearGraduated: "2016",
+        currentCity: "Newport, RI",
+        collegeAndMajor: "George Mason University – Government and International Politics (undergraduate); Wake Forest University - Master's Degree in Communication",
+        currentJob: "Ph.D. Student in Marine Affairs at Rhode Island University",
+        jobDescription: "I am a research assistant supporting departmental research into offshore windturbines along the eastern coast. Our research focuses on issues of environmental justice and communication strategies related to Indiginous populations in the Northeast. My contributions to the project include supporting conducting interviews and surveys, performing literature reviews of relevant research, and supporting reseearch design efforts.",
+        priorRoles: "Graduate Assistant and Assistant Debate Coach @ Wake Forest University, Communications Intern @ Greenlight Fund, and Research Intern @ Fahe, Professional Services Council, and Sharrod Brown's Congressional Office",
+        interests:
+          "Hiking, reading, playing board games, coaching debate, and ranting",
+        canOfferAdviceOn: [
+          "Students interested in collegiate-level speech and debate",
+          "Students interested in working for policy-oriented nonprofits or going into academia",
+          "Applying to  masters/PhD programs"
+        ],
+      },
+      {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
         contact: {
           phone: "330-224-2262",
           email: "Andrewpkoehler@hotmail.com",
+          facebook: "https://www.facebook.com/andrew.koehler.984/",
+          instagram: "https://www.instagram.com/throw.away.your.televisionz/",
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/andrew-koehler-p-s-77791999/"
         },
         yearGraduated: "2006",
         currentCity: "Streetsboro, OH",
