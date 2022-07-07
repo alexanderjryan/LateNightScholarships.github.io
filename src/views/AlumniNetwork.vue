@@ -547,6 +547,33 @@ export default {
         ],
       },
       {
+        firstName: "Shane",
+        lastName: "Stockall",
+        contact: {
+          phone: null,
+          email: "shanestockall@gmail.com",
+          facebook: "https://www.facebook.com/shane.stockall/",
+          instagram: "https://www.instagram.com/shanestockall/",
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/shanestockall/"
+        },
+        yearGraduated: "2013",
+        currentCity: "Santa Monica, CA",
+        collegeAndMajor: "Northwestern University - Computer Science",
+        currentJob: "Software Engineer at Riot Games",
+        jobDescription: "I'm a software engineer on League of Legends - previously, I was on the Merchant Guild team, which mostly handles the UI and services for store, loot, missions, collections, and many of the 'around-game' interactions with LoL that players have. At the moment, I'm transitioning to a more gameplay focused role on the Modes team, where I will be working with technical artists, game designers, and product to maintain existing game modes, build tools to help us work sustainably, and develop new and exciting experiences for our players.",
+        priorRoles: "Software Engineer at Tiger Pistol, Engineer at Publicis Sapient",
+        interests:
+          "Computer science education & accessibility, photography, game development, UX & accessible design, social justice ",
+        canOfferAdviceOn: 
+        [
+          "Computer science",
+          "Software engineering",
+          "Game development",
+          "Resume building, applying to jobs & internships",
+        ],
+      },
+      {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
         contact: {
