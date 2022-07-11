@@ -498,27 +498,26 @@ export default {
       },
       {
         firstName: "Nick",
-        lastName: "Gardener",
+        lastName: "Gardner",
         contact: {
           phone: null,
           email: "nicholasgardner2015@gmail.com",
           facebook: null,
-          instagram: "https://www.instagram.com/nickgardner19/",
+          instagram: null,
           twitter: "https://twitter.com/nickgardner19/",
           linkedin: null
         },
         yearGraduated: "2015",
         currentCity: "Los Angelas, CA",
-        collegeAndMajor: "Graduated from Los Angelas Acting School - 2019",
+        collegeAndMajor: "Beverly Hills Playhouse",
         currentJob: "Actor",
-        jobDescription: "I am actively seeking auditions for casting roles. I have been casted as background acting on Blackish and Black Monday, among others. I recently received my final voucher to join the Actors Guild.",
-        priorRoles: "Landscaping @ X, Waitor @ Y, Delivery Truck Driver @ Amazon, Camera and Equipment Staff at Studio Z",
+        jobDescription: "Currently going on auditions for principal speaking roles. Previously cast as background on Blackish, American Horror Story, as well as 17 other shows. Member of the Screen Actors Guild.",
+        priorRoles: "Landscaper @ Blue Max Nursery, Waitor @ The Hummus Republic, Delivery Driver @ Amazon, Camera and Equipment Staff at Tavros Productions",
         interests:
           "Boxing, playing guitar, surfing, reading, and writing",
         canOfferAdviceOn: [
           "Students deciding whether to attend college",
-          "Individuals interested in acting, personal training or moving to a big city to 'chase the dream'",
-          "Curating undergraduate schedule to prepare for masters/PhD applications"
+          "Individuals interested in acting and what that entails both on the skill and administrative sides of acting, as well as the daily life and challenges of 'chasing the dream'",
         ],
       },
       {
