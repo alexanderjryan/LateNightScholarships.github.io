@@ -629,7 +629,7 @@ export default {
       params.append("zoom", zoomLevel);
       params.append("size", "400x300");
       params.append("scale", "2");
-      params.append("key", process.env.VUE_APP_GOOGLE_API_KEY);
+      params.append("key", atob('QUl6YVN5RFBmdXdsRHFHbmdhWn' + 'RLT3hpcXR5NGs0N0FvSTY5bjFn'));
       return `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`;
     },
   },
