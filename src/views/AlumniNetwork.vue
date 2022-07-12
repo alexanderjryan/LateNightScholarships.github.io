@@ -546,6 +546,30 @@ export default {
         ],
       },
       {
+        firstName: "Jeff",
+        lastName: "Swan",
+        contact: {
+          phone: "440-773-5643",
+          email: "jswan@cscpails.com",
+          facebook: null,
+          instagram: null,
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/jeffrey-swan-ohio/"
+        },
+        yearGraduated: "2016",
+        currentCity: "Bedford, Ohio",
+        collegeAndMajor: "The University of Akron - Integrated Marketing Communications, Market Management",
+        currentJob: "Sales and Marketing Specialist at Cleveland Steel Container",
+        jobDescription: "I provide support for our sales team and create all the marketing assets for the company.",
+        priorRoles: "Marketing Intern at LyondellBasell and Media Director at Night is Alive",
+        interests:
+          "Biking, Hiking, Kayaking, Golf, Reading, and Video Games",
+        canOfferAdviceOn: 
+        [
+          "How to navigate your early business career and college advice",
+        ],
+      },
+      {
         firstName: "Shane",
         lastName: "Stockall",
         contact: {
