@@ -251,6 +251,14 @@ export default {
   min-height: 150px;
 }
 
+.winner h3 {
+  margin-top: 5px;
+}
+
+.winner:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
