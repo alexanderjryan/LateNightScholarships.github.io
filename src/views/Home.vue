@@ -4,7 +4,7 @@
       <div class="opacity"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 lns-hero">
             <h1>Welcome to the Late Night Scholarships Site</h1>
             <p>
               Late Night Scholarships was formed to provide Perry alumni with

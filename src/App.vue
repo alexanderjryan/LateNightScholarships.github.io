@@ -142,6 +142,15 @@ export default {
 </script>
 
 <style>
+.lns-hero {
+  background-color: rgba(0,0,0,.6);
+  padding: 15px;
+}
+
+.lns-hero h1 {
+  margin-top: 0px;
+}
+
 .lns-nav-btn {
   width: 75px;
 }
