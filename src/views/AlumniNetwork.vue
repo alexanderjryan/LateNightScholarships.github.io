@@ -597,6 +597,34 @@ export default {
         ],
       },
       {
+        firstName: "Alex",
+        lastName: "Orians",
+        contact: {
+          phone: null,
+          email: "oriansalex@gmail.com",
+          facebook: null,
+          instagram: null,
+          twitter: null,
+          linkedin: "https://www.linkedin.com/in/alex-orians/"
+        },
+        yearGraduated: "2016",
+        currentCity: "Charlotte, NC",
+        collegeAndMajor: "Xavier University - Finance",
+        currentJob: "Investment Banking Analyst at Fifth Third Bank",
+        jobDescription: "Support Fifth Third's Private Equity relationships by creating pitch materials, building financial models and generating financing ideas for their portfolio investments.",
+        priorRoles: "Credit Analyst - Fifth Third Bank, Client Associate - Bank of America Merrill Lynch, Operations Intern - Western & Southern Financial Group, Operations Intern - Jarrett Logistics",
+        interests:
+          "CreatGolf, Reading, Museums, Politics, Travel",
+        canOfferAdviceOn: 
+        [
+          "Resume prep",
+          "Internship experience",
+          "College admissions",
+          "Building a network",
+          "Moving to a new city for college/career",
+        ],
+      },
+      {
         firstName: "Shane",
         lastName: "Stockall",
         contact: {
