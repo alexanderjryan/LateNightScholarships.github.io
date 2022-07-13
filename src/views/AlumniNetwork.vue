@@ -587,7 +587,7 @@ export default {
         jobDescription: "CAF America makes it easier for people to donate to international charities and still receive a tax benefit. Part of this includes vetting charities to ensure they can handle an influx of cash as well as ensure we will remain IRS compliant if we donate to them. My role involves collecting application information from the charities, ensuring they have submitted the necessary information, and then verifying that the information they have submitted is accurate and 'safe' through researching their background and performing our due diligence.",
         priorRoles: "Donor Services Associate, CAF America (November 2021 - July 2022); Undergraduate Research Assistant, Office of the Ibn Khaldun Chair of Islamic Studies (May 2018 - October 2019)",
         interests:
-          "Biking, Hiking, Kayaking, Golf, Reading, and Video Games",
+          "Creating art, playing board games with friends, traveling, and kayaking",
         canOfferAdviceOn: 
         [
           "Going out of state for school/living far from home",
