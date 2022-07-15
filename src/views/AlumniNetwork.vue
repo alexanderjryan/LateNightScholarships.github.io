@@ -651,6 +651,35 @@ export default {
           "Resume building, applying to jobs & internships",
         ],
       },
+       {
+        firstName: "Zachary",
+        lastName: "Spencer",
+        contact: {
+          phone: null,
+          email: "Zachspencer10@gmail.com",
+          facebook: null,
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/zachary-spencer-0a3236109/"
+        },
+        yearGraduated: "2013",
+        currentCity: "Washington, D.C.",
+        collegeAndMajor: `
+	West Virginia University - Environmental, and Natural Resource Economics;
+	University of Pennsylvania's Wharton Business School - Certificate in Public Policy`,
+        currentJob:
+          "Staff Assistant for United State's Senate Committee on Indian Affairs",
+        jobDescription: [
+          "Aide Senators in drafting legislation and conducting oversight of government agencies that pertain to trusts/treaties with Native American governments and communities",
+        ],
+        priorRoles: "Intern for Senator Joe Manchin (D-WV)",
+        interests: "Recreational - Intramural sports, golf, snowboarding, trying new restaurants. Professional - Energy, environment, water, and labor rights are the issue areas I focus on.",
+        canOfferAdviceOn: [
+          "Attending college outside of Ohio",
+          "How to get involved with politics",
+          "How to get an internship on Capitol Hill",
+        ],
+      },
       {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
