@@ -681,6 +681,39 @@ export default {
         ],
       },
       {
+        firstName: "Logan",
+        lastName: "Embly",
+        contact: {
+          phone: null,
+          email: "emblyle@gmail.com",
+          facebook: null,
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/logan-embly-63774214b/"
+        },
+        yearGraduated: "2013",
+        currentCity: "Cleveland, OH",
+        collegeAndMajor: `University of Akron - Criminal Justice`,
+        currentJob:
+          "Lead Risk Analyst @ Patriot Software",
+        jobDescription:{
+        summary:
+          "I work at a payroll and accounting company targeting small businesses. I have been at Patriot from the start-up phase with less than 25 employees to now 200+ employees 5 years later. The goal of my team is to monitor and mitigate risk involving credit and banking transactions of our customers. Typical tasks of my role include:",
+roles:[
+  "Analyze large data sets to build models to predict financial and credit exposures for the organization",
+"Generate risk reports using R, python, and tableau for interdepartmental teams",
+"Work with regulatory and law enforcement partners if suspected money laundering or other criminal activity has been conducted through our system.",
+        ],},
+        priorRoles: "Legal Researcher, Banking Regulations @ Patriot Software",
+        interests: "Digital nomad, environmentalism/conservation, personal finance/retire early, photography, video games/ board games",
+        canOfferAdviceOn: [
+          "Uncertainty about your degree choice/career path",
+          "How to work abroad",
+          "Working at a startup",
+          "Attending college/working professionally with a chronic illness",
+        ],
+      },
+      {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
         contact: {
