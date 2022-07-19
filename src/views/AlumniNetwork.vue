@@ -713,6 +713,35 @@ roles:[
           "Attending college/working professionally with a chronic illness",
         ],
       },
+{
+        firstName: "Taylor",
+        lastName: "Rhodes",
+        contact: {
+          phone: null,
+          email: "TAYLORNRHODES@gmail.com",
+          facebook: null,
+          twitter: null,
+          instagram: null,
+          linkedin: "https://www.linkedin.com/in/taylor-rhodes21/"
+        },
+        yearGraduated: "2016",
+        currentCity: "Canton, OH",
+        collegeAndMajor: `University of Ohio - Integrated Media Production (major), Sport Administration (minor)
+`,
+        currentJob:
+          "Content Creator @ Hall of Fame Village",
+        jobDescription:{
+roles:[
+  "Develop creative content to be distributed by both digital and print",
+"Help develop the Hall of Fame Village brand, including logos, naming, theming, etc.",
+"Organize and edit short-form video content to be shared across all channels.",
+        ],},
+        priorRoles: "Graphic Designer @ Columbus Crew, Assistant Director of Marketing & Sales @ OHIO Athletics",
+        interests: "Sports Marketing, Social Media Marketing, Brand Development",
+        canOfferAdviceOn: [
+          "Working in sports",
+        ],
+      },
       {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
