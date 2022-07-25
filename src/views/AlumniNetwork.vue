@@ -761,7 +761,9 @@ roles:[
         currentJob:
           "Claims Property Senior Field Representative @ Grange Insurance",
         jobDescription: [
-          "Handles moderate to large complexity personal and commercial lines claims, active member of mid-level large loss team, serves as a mentor to members of the claims team",
+          "Handles moderate to large complexity personal and commercial lines claims", 
+          "Active member of mid-level large loss team", 
+          "Serves as a mentor to members of the claims team",
         ],
         priorRoles: "Field Claim Representative 1 @ Auto-Owners Insurance, Branch Claim (Auto) Representative 1 @ Auto-Owners Insurance, Claims Intern @ Auto Owners Insurance, Audit Intern @ Jarrett Logistics",
         interests: "Sports, politics/current events, cars, DIY home projects",
