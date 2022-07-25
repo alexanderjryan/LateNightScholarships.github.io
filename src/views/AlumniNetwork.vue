@@ -743,6 +743,37 @@ roles:[
         ],
       },
       {
+        firstName: "Ryan",
+        lastName: "George",
+        contact: {
+          phone: null,
+          email: " rgeorg14@kent.edu",
+          facebook: null,
+          twitter: null,
+          instagram: null,
+          linkedin: "www.linkedin.com/in/ryangeorgeksu/"
+        },
+        yearGraduated: "2016",
+        currentCity: "Canal Fulton, Ohio",
+        collegeAndMajor: `
+	Kent State University
+	Majors: Finance`,
+        currentJob:
+          "Claims Property Senior Field Representative @ Grange Insurance",
+        jobDescription: [
+          "Handles moderate to large complexity personal and commercial lines claims, active member of mid-level large loss team, serves as a mentor to members of the claims team",
+        ],
+        priorRoles: "Field Claim Representative 1 @ Auto-Owners Insurance, Branch Claim (Auto) Representative 1 @ Auto-Owners Insurance, Claims Intern @ Auto Owners Insurance, Audit Intern @ Jarrett Logistics",
+        interests: "Sports, politics/current events, cars, DIY home projects",
+        canOfferAdviceOn: [
+          "Resume building",
+          "salary negotiating",
+          "insurance/finance",
+          "continuining education within a specific field of study (designations, certificates, etc.)",
+          "money/budgeting/financial advice",
+        ],
+      },
+      {
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
         contact: {
