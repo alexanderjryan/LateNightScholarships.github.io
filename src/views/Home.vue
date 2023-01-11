@@ -114,7 +114,7 @@
               <h2>Donate to the Scholarship Fund</h2>
               <p>
                 The Late Night Scolarships fund is accepting donations for the
-                Class of 2022 scholarships. Last year, we collected over $1,500
+                Class of 2023 scholarships. Last year, we collected over $1,500
                 from over 35+ donors. 100% of donations go towards the
                 scholarships. All donors have the option to review the
                 anonymized applications and vote for which applicants should

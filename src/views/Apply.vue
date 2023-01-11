@@ -8,14 +8,14 @@
               <h2>Late Night Scholarships Application</h2>
             </div>
             <p>
-              Check back in January for the class of 2023 application.
-              <!-- The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three scholarships of $500 scholarships to graduating Perry students in the class of 2022. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2022. The winner of the scholarship will be announced in May 2022.  -->
-              <!-- <br> <br>  -->
-              <!-- Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here. -->
+              <!-- Check back in January for the class of 2024 application. -->
+              The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1000 scholarships to graduating Perry students in the class of 2023. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2023. The winner of the scholarship will be announced in May 2023. 
+              <br> <br> 
+              Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here.
             </p>
           </div>
         </div>
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -92,17 +92,17 @@
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-6">
-                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2022<span class="lns-required">*</span></label>
+                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2023<span class="lns-required">*</span></label>
                     <div class="radio">
                       <label>
                         <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationYes" value="true">
-                        I confirm that I will graduate in May 2022
+                        I confirm that I will graduate in May 2023
                       </label>
                     </div>
                     <div class="radio">
                       <label>
                         <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationNo" value="false">
-                        I cannot confirm that I will graduate in May 2022
+                        I cannot confirm that I will graduate in May 2023
                       </label>
                     </div>
                   </div>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="essay-1-prompt-2">Over 20 donors have contributed to the Late Night Scholarship fund to support the education of a high-achieving graduating senior from Perry High School. Prior to making the donation, each donor considered the best way to invest/spend this money. Rather than investing the money in a high-yield investment account or purchasing a subscription to an additional streaming service, each donor decided the best use of his/her money was to donate to a scholarship fund. Please briefly explain why you are the best investment for the donors of the Late Night Scholarship fund.</label>
+                    <label for="essay-1-prompt-2">Over 50 donors have contributed to the Late Night Scholarship fund to support the education of a high-achieving graduating senior from Perry High School. Prior to making the donation, each donor considered the best way to invest/spend this money. Rather than investing the money in a high-yield investment account or purchasing a subscription to an additional streaming service, each donor decided the best use of his/her money was to donate to a scholarship fund. Please briefly explain why you are the best investment for the donors of the Late Night Scholarship fund.</label>
                     <textarea v-model="application.essaySection1Prompt2" class="form-control" rows="4" name="essay-1-prompt-2" id="essay-1-prompt-2"></textarea>
                   </div>
                 </div>
@@ -296,7 +296,7 @@
               </ul>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </form>

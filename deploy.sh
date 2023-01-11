@@ -12,10 +12,10 @@ cd dist
 # if you are deploying to a custom domain
 echo 'latenightscholarships.com' > CNAME
 
-git init
+git init -b master
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/alexanderjryan/LateNightScholarships.github.io.git master
+git push -f git@github.com:alexanderjryan/LateNightScholarships.github.io.git master
 
 cd -
