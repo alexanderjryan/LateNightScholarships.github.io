@@ -8,14 +8,16 @@
               <h2>Late Night Scholarships Application</h2>
             </div>
             <p>
-              <!-- Check back in January for the class of 2024 application. -->
-              The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1000 scholarships to graduating Perry students in the class of 2023. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2023. The winner of the scholarship will be announced in May 2023. 
-              <br> <br> 
-              Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here.
+              2023 Results will be announced in May.
+              <br/><br/>
+              Check back in January for the class of 2024 application.
+              <!-- The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1000 scholarships to graduating Perry students in the class of 2023. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2023. The winner of the scholarship will be announced in May 2023.  -->
+              <!-- <br> <br>  -->
+              <!-- Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here. -->
             </p>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -296,7 +298,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </form>
