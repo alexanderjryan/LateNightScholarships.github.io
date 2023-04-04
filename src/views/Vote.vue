@@ -16,10 +16,11 @@
             <p>
               Thank you for donating to the LNS scholarship fund. The time has
               come to vote on this year's winners. Please review the
-              applications using the dropdown or arrow buttons below. When you
-              are ready to cast your vote, click the "Vote Now" button.
+              applications using the dropdown or previous/next buttons below and
+              decide on your top 3 candidates. When you
+              are ready to cast your vote, click the "Vote My Top 3" button.
             </p>
-            <div class="d-flex">
+            <div class="d-flex justify-between">
               <div class="dropdown">
                 <button
                   class="btn btn-default dropdown-toggle"
@@ -42,7 +43,10 @@
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-primary vote-button" @click="voteClicked">Vote Now</button>
+              <div>
+                Finished Reviewing?
+                <button class="btn btn-primary vote-button" @click="voteClicked">Vote My Top 3</button>
+              </div>
             </div>
           </div>
         </div>
@@ -510,6 +514,7 @@
                     to open it in a new tab.
                     <embed
                       :src="`https://lns-application-public-transcripts.s3.amazonaws.com/${selectedApplication.transcript}`"
+                      :key="selectedApplication.transcript"
                       width="100%"
                       height="500"
                       type="application/pdf"
@@ -733,5 +738,9 @@ export default {
 input:disabled,
 textarea:disabled {
   color: #141414;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 </style>
