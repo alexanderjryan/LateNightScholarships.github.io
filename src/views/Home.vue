@@ -31,11 +31,11 @@
         <div class="row">
           <div class="col-md-12 section-container-spacer">
             <div class="text-center">
-              <h2>Perry Class of 2022 Winners</h2>
+              <h2>Perry Class of 2023 Winners</h2>
               <p>
-                The Late Night Scholarships fund awarded 4 scholarships to
-                graduating seniors in the Perry Class of 2022. The winners
-                include Timara Berry, Anne Fahrner, Grace Miller, and Jude Warstler.
+                The Late Night Scholarships fund awarded 3 scholarships to
+                graduating seniors in the Perry Class of 2023. The winners
+                include Grace Brown, Abbie Friedrichsen, and Walter Tidenberg.
                 Congratulations to our winners!
               </p>
             </div>
@@ -44,60 +44,45 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/berry.jpg"/>
+              <img src="@/assets/images/winners/brown.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Timara Berry</h3>
+              <h3>Grace Brown</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Timara Berry will be attending Xavier University or University of Cincinnati to major in Political Science.
+              Grace Brown will be majoring in Political Science/International Relations.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/fahrner.jpg"/>
+              <img src="@/assets/images/winners/friedrichsen.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Anne Fahrner</h3>
+              <h3>Abbie Friedrichsen</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Anne Fahrner will be attending University of Akron to major in Chemical Engineering.
+              Abbie Friedrichsen will be attending The Ohio State University to major in Culinary Arts.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/miller.jpg"/>
+              <img src="@/assets/images/winners/tidenberg.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Grace Miller</h3>
+              <h3>Walter Tidenberg</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Grace Miller will be attending Kent State University to major in Early Childhood Education.
-            </p>
-          </div>
-        </div>
-        <div class="row winner">
-          <div class="col-md-4">
-            <div class="winner-photo">
-              <img src="@/assets/images/winners/warstler.jpg"/>
-            </div>
-            <div class="text-center">
-              <h3>Jude Warstler</h3>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <p>
-              Jude Warstler will be attending Florida International University or University of Cincinnati to major in Marketing.
+              Walter Tidenberg will be attending The Ohio State University to major in Astronomy and Astrophysics.
             </p>
           </div>
         </div>
