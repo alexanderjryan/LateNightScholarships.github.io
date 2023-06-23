@@ -44,7 +44,7 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/brown.jpg"/>
+              <img src="@/assets/images/winners/brown.jpeg"/>
             </div>
             <div class="text-center">
               <h3>Grace Brown</h3>
@@ -59,7 +59,7 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/friedrichsen.jpg"/>
+              <img src="@/assets/images/winners/friedrichsen.jpeg"/>
             </div>
             <div class="text-center">
               <h3>Abbie Friedrichsen</h3>
@@ -74,7 +74,7 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/tidenberg.jpg"/>
+              <img src="@/assets/images/winners/tidenberg.jpeg"/>
             </div>
             <div class="text-center">
               <h3>Walter Tidenberg</h3>
@@ -99,7 +99,7 @@
               <h2>Donate to the Scholarship Fund</h2>
               <p>
                 The Late Night Scolarships fund is accepting donations for the
-                Class of 2023 scholarships. Last year, we collected over $1,500
+                Class of 2024 scholarships. Last year, we collected over $3,000
                 from over 35+ donors. 100% of donations go towards the
                 scholarships. All donors have the option to review the
                 anonymized applications and vote for which applicants should
