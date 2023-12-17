@@ -99,7 +99,7 @@
               <h2>Donate to the Scholarship Fund</h2>
               <p>
                 The Late Night Scolarships fund is accepting donations for the
-                Class of 2024 scholarships. Last year, we collected over $3,000
+                Class of 2024 scholarships. Last year, we collected over $4,500
                 from over 35+ donors. 100% of donations go towards the
                 scholarships. All donors have the option to review the
                 anonymized applications and vote for which applicants should

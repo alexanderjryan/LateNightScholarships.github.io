@@ -59,7 +59,7 @@
               applications. In the future, we hope to provide mentorship
               opportunities to applicants by matching students with donors based
               on their career aspirations. In 2023, we awarded scholarships of
-              $1000 to 3 graduating PHS seniors. The hope is that as more alumni
+              $1,500 to 3 graduating PHS seniors. The hope is that as more alumni
               graduate from college, the donor base will continue to grow and
               help us provide more scholarships with larger balances.
             </p>
