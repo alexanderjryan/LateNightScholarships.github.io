@@ -277,6 +277,17 @@
                     </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <label for="joinEmailList">Join our Email List?</label>
+                    <div class="checkbox">
+                      <label>
+                        <input v-model="application.joinEmailList" type="checkbox" name="joinEmailList" value="yes">
+                        Are you interested in joining our email list to be included in communications about donating and voting in future years?
+                      </label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -359,6 +370,7 @@ export default {
       essaySection2Prompt3: '',
       essaySection2Prompt4: '',
       mentorshipInterest: false,
+      joinEmailList: false,
     },
     otherEthnicity: '',
     validationErrors: [],
