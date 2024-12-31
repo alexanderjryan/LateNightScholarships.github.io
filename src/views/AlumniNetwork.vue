@@ -186,12 +186,12 @@ export default {
           instagram: "https://www.instagram.com/curtincalvin/",
           linkedin: "https://www.linkedin.com/in/calvincurtin/"},
         yearGraduated: "2013",
-        currentCity: "Brecksville, Ohio",
+        currentCity: "Stow, Ohio",
         collegeAndMajor:
           "The Ohio State University, BA Political Science, BA International Studies",
-        currentJob: "Substitute Teacher",
+        currentJob: "Administrative Officer for the National Cemetery Administration",
         jobDescription:
-          "Floating substitute for a number of school districts in/around the Brecksville area. Currently in preparation to get my Alternative Teaching License through OAE testing as well as getting a certification through Ohio State.",
+          "Oversight of Ohio Western Reserve National Cemetery's budgetary functions, administrative staff, and overall strategy.",
         priorRoles: `
           Transportation/Logistics Officer for the US Army. 
           Executive Officer for 2-2 CAB at K16 Airbase in Seoul South Korea. Provided admin management and logistical convoy planning. 
@@ -199,7 +199,7 @@ export default {
         interests:
           "Dungeons and Dragons, Trekkie, golf, fan of Blue Jackets, Orioles, Patriots, and Ohio State",
         canOfferAdviceOn:
-          "Military Planning. Personally, I was a 4-year AROTC scholarship winner at Ohio State. Can offer advice concerning joining the military whether a prospective servicemember is interested in enlisting or commissioning. Strongly recommend students consult both recruiters and veterans, like myself, to get the full scope of what they're committing to.",
+          "The federal hiring process, especially Department of Veteran Affairs.",
       },
       {
         firstName: "Jaret",
@@ -207,21 +207,21 @@ export default {
         contact: {
           phone: null,
           email: " jaret.hughes13@gmail.com ",
-          facebook: "https://www.facebook.com/jaret.hughes.7/",
-          twitter: "https://mobile.twitter.com/dumbnoodlebrain/",
-          instagram: "https://www.instagram.com/j_hughes601/",
+          facebook: null,
+          twitter: null,
+          instagram: null,
           linkedin: "https://www.linkedin.com/in/jaret-hughes-556242127/"
 
         },
         yearGraduated: "2016",
         currentCity: "Washington, D.C.",
         collegeAndMajor: "Xavier University – Political Science & Economy",
-        currentJob: "Record Examiner/Analyst, Federal Contractor",
+        currentJob: "Lead Data Analyst at TeleSolv Consulting",
         jobDescription:
-          "Supporting the Government in records keeping/compliance with civil rights regulations.",
-        priorRoles: "Legislative Intern in U.S. Senator Sherrod Brown’s Office",
-        interests: "Board Games, Economics, Political Theory.",
-        canOfferAdviceOn: "Moving to a new city",
+          "I manage 3 teams of Data Analysts supporting the United States Secret Service. I train the analysts and perform regular QA checks on their deliverables to meet the high standards of the USSS. In addition, I also assist the USSS with special projects related to legal compliance and financial records. I was originally hired as an analyst, and was promoted internally. I typically use Excel, but have also used SQL, VBA, TypeScript, and Python.",
+        priorRoles: "Data Analyst supporting the USSS, Legislative Intern for US Senator Sherrod Brown",
+        interests: "Board/Video Games, Economics, SciFi/ Fantasy, Human Spaceflight, the Browns",
+        canOfferAdviceOn: "Moving to a new city, Attempting to gain federal employment, Working as a federal contractor, Interviewing",
       },
       {
         firstName: "Elizabeth",
@@ -427,7 +427,7 @@ export default {
         yearGraduated: "2013",
         currentCity: "Charlotte, North Carolina",
         collegeAndMajor: "Ohio State University – Computer Science",
-        currentJob: "Sr. Systems Engineer @ Ally Bank",
+        currentJob: "Cloud Engineering Manager @ Ally Bank",
         jobDescription: {
           summary:
             "I am on the Cloud Enablement team at Ally. We work with application teams to deploy their apps on Amazon Web Services. This can be broken down into 2 major areas of focus:",
@@ -446,7 +446,7 @@ export default {
         lastName: "Watkins",
         contact: {
           phone: null,
-          email: "taw46@case.edu",
+          email: "timothywatkins2@gmail.com",
           facebook: "https://www.facebook.com/KiloWatt17/",
           twitter: "https://mobile.twitter.com/TimothyAWatkins/",
           instagram: null,

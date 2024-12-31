@@ -20,7 +20,7 @@
               decide on your top 3 candidates. When you
               are ready to cast your vote, click the "Vote My Top 3" button.
             </p>
-            <div class="d-flex justify-between">
+            <div class="d-flex justify-between align-end">
               <div class="dropdown">
                 <button
                   class="btn btn-default dropdown-toggle"
@@ -43,7 +43,7 @@
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style="max-width: 140px">
                 Finished Reviewing?
                 <button class="btn btn-primary vote-button" @click="voteClicked">Vote My Top 3</button>
               </div>
@@ -136,7 +136,7 @@
                   <div class="col-md-6">
                     <label for="graduationAttestation"
                       >Please confirm you are on track to graduate in May
-                      2022</label
+                      2024</label
                     >
                     <div class="radio">
                       <label>
@@ -148,7 +148,7 @@
                           value="true"
                           disabled
                         />
-                        I confirm that I will graduate in May 2022
+                        I confirm that I will graduate in May 2024
                       </label>
                     </div>
                     <div class="radio">
@@ -161,7 +161,7 @@
                           value="false"
                           disabled
                         />
-                        I cannot confirm that I will graduate in May 2022
+                        I cannot confirm that I will graduate in May 2024
                       </label>
                     </div>
                   </div>
@@ -742,5 +742,9 @@ textarea:disabled {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.align-end {
+  align-items: end;
 }
 </style>

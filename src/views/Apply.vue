@@ -8,16 +8,16 @@
               <h2>Late Night Scholarships Application</h2>
             </div>
             <p>
-              2024 Results will be announced in May.
+              <!-- 2024 Results will be announced in May. -->
               <br/><br/>
-              Check back in January for the class of 2025 application.
-              <!-- The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1,500 scholarships to graduating Perry students in the class of 2024. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2024. The winner of the scholarship will be announced in May 2024.  -->
+              <!-- Check back in January for the class of 2025 application. -->
+              The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1,500 scholarships to graduating Perry students in the class of 2025. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2025. The winner of the scholarship will be announced in May 2025. 
               <br> <br> 
-              <!-- Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here. -->
+              Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here.
             </p>
           </div>
         </div>
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -45,13 +45,13 @@
                     <label for="citizen">Are you a first generation US citizen?<span class="lns-required">*</span></label>
                     <div class="radio">
                       <label>
-                        <input v-model="application.firstGenCitizen" type="radio" name="citizen" id="first-gen-citizen-yes" value="true">
+                        <input v-model="application.firstGenCitizen" type="radio" name="citizen" id="first-gen-citizen-yes" :value="true">
                         Yes, I am a first generation citizen
                       </label>
                     </div>
                     <div class="radio">
                       <label>
-                        <input v-model="application.firstGenCitizen" type="radio" name="citizen" id="first-gen-citizen-no" value="false" checked>
+                        <input v-model="application.firstGenCitizen" type="radio" name="citizen" id="first-gen-citizen-no" :value="false" checked>
                         No, I am not a first generation citizen
                       </label>
                     </div>
@@ -94,17 +94,17 @@
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-6">
-                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2024<span class="lns-required">*</span></label>
+                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2025<span class="lns-required">*</span></label>
                     <div class="radio">
                       <label>
-                        <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationYes" value="true">
-                        I confirm that I will graduate in May 2024
+                        <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationYes" :value="true">
+                        I confirm that I will graduate in May 2025
                       </label>
                     </div>
                     <div class="radio">
                       <label>
-                        <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationNo" value="false">
-                        I cannot confirm that I will graduate in May 2024
+                        <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationNo" :value="false">
+                        I cannot confirm that I will graduate in May 2025
                       </label>
                     </div>
                   </div>
@@ -309,7 +309,7 @@
               </ul>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </form>
@@ -396,8 +396,6 @@ export default {
     post(file) {
       const data = {...this.application}
       data.ethnicity = this.getEthnicities();
-      // graduationAttestation is given a string value by vue since we don't set a default
-      data.graduationAttestation = data.graduationAttestation === 'true'
       data.transcript = {
         data: file.target.result.replace(/^.*,/, ''),
         mimetype: file.target.result.match(/^.*(?=;)/)[0],
