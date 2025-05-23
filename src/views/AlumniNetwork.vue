@@ -216,10 +216,10 @@ export default {
         yearGraduated: "2016",
         currentCity: "Washington, D.C.",
         collegeAndMajor: "Xavier University – Political Science & Economy",
-        currentJob: "Lead Data Analyst at TeleSolv Consulting",
+        currentJob: "Asset Forfeiture Specialist with the United States Secret Service ",
         jobDescription:
-          "I manage 3 teams of Data Analysts supporting the United States Secret Service. I train the analysts and perform regular QA checks on their deliverables to meet the high standards of the USSS. In addition, I also assist the USSS with special projects related to legal compliance and financial records. I was originally hired as an analyst, and was promoted internally. I typically use Excel, but have also used SQL, VBA, TypeScript, and Python.",
-        priorRoles: "Data Analyst supporting the USSS, Legislative Intern for US Senator Sherrod Brown",
+          "I manage all USSS forfeiture actions for a particular region of the country. I follow and direct the forfeiture actions from cradle to grave, working with USSS agents. I also interface with personnel outside the office as the point of contact/subject matter expert. I was originally a contractor supporting the USSS office. I typically use Excel, but have also used SQL, VBA, TypeScript, and Python. In addition, I use the Lexis suite for legal research.",
+        priorRoles: "Lead Data Analyst and Data Analyst supporting the USSS, Legislative Intern for US Senator Sherrod Brown",
         interests: "Board/Video Games, Economics, SciFi/ Fantasy, Human Spaceflight, the Browns",
         canOfferAdviceOn: "Moving to a new city, Attempting to gain federal employment, Working as a federal contractor, Interviewing",
       },
@@ -271,14 +271,12 @@ export default {
 	Majors: Public Management, Leadership & Policy and Strategic Communication
 	Minor: Leadership Development`,
         currentJob:
-          "Education Coordinator for After-School All-Stars (nonprofit)",
+          "Talent and Culture Programs Manager, City of Dublin",
         jobDescription: [
-          "Develop enrichment curriculum for programming",
-          "Evaluate staff to make sure they implement curriculum effectively",
-          "Evaluate students to collect data on social-emotional and academic growth for grant funding and to help steer direction of curriculum during the school year",
+          "Manage satisfaction and retention strategies, track City compliance, facilitate citywide and departmental professional development opportunities",
         ],
-        priorRoles: "Teach for America Corps Member (New Mexico)",
-        interests: "Education reform, Social Justice, Survivor",
+        priorRoles: "Senior Training and Curriculum Manager, After-School All-Stars (nonprofit), Teach for America Corps Member (New Mexico)",
+        interests: "Education reform, Social justice, Survivor, Board games, Volleyball",
         canOfferAdviceOn: [
           "Finding your place at college/involvement",
           "Not knowing what you want to do going into college or after college",
@@ -289,7 +287,7 @@ export default {
         firstName: "Anna",
         lastName: "Liebler, MSCJ, LCDC III",
         contact: {
-          phone: "330-806-0779",
+          phone: null,
           email: "annamayliebler@gmail.com ",
           facebook: "https://www.facebook.com/anna.liebler.3/",
           twitter: null,
@@ -334,33 +332,24 @@ export default {
         firstName: "Jesse",
         lastName: "Nodo",
         contact: {
-          phone: null,
+      
           email: "nodojm@gmail.com",
           facebook: "https://www.facebook.com/Jessaahhh/",
-          twitter: "https://mobile.twitter.com/jodoooo",
+          twitter: null,
           instagram:"https://www.instagram.com/jodooo_/",
           linkedin: "https://www.linkedin.com/in/jessicanodo/"
         },
         yearGraduated: "2016",
-        currentCity: "Stow, Ohio",
-        collegeAndMajor: "American University – International Relations",
-        currentJob: "Donation and Volunteer Coordinator at ACCESS",
-        jobDescription: {
-          summary:
-            "I am a Donation and Volunteer Coordinator on the Advancement team at ACCESS. ACCESS is a shelter for women and children experiencing homelessness in Summit County. The agency encouraged the development of self-esteem and the attainment of self-sufficiency through its commitment of providing a holistic, safe, and supportive environment through its programs of housing, advocacy, and empowerment. Through my role, I perform the following tasks",
-          roles: [
-            "Recruit, train, and supervise volunteers to help with fundraisers, administrative tasks, general shelter operation, child programming, meal assistance, and any other needs.",
-            "Solicit, collect, inventory, and manage all in-kind (item) donations given to the agency",
-            "Record, track, and recognize all in-kind and monetary donations",
-          ],
-        },
-        priorRoles: "AmeriCorps VISTA at Stark Fresh",
+        currentCity: "Columbus, Ohio",
+        collegeAndMajor: "American University: BA in International Relations, The Ohio State University: MA in Public Policy and Management",
+        currentJob: "Donor Experience Senior Associate at The Ohio State University ",
+        jobDescription: "I help lead efforts to strengthen relationships between Ohio State and its donors by ensuring their generosity is recognized, appreciated, and shown to make a real impact on the lives of our students, faculty, staff, and the community. My role focuses on developing strategies and communications that highlight how philanthropic gifts are used and why they matter - building trust and encouraging continued support. I collaborate with teams across the university to manage projects, track outcomes, and create meaningful experiences that connect donors to the people and programs they support.",
+          
+        priorRoles: "AmeriCorps VISTA at Stark Fresh, Donation and Volunteer Coordinator at ACCESS",
         interests:
           "I enjoy spending time with family and friends, playing with my dogs, cooking and trying new recipes, and traveling.",
         canOfferAdviceOn: [
-          "Going to an out of state school",
-          "Working in a nonprofit",
-          "Struggling to figure out what to do with your degree",
+          "Going to an out of state school, Working in a nonprofit", "Struggling to figure out what to do with your degree/career", "getting a master's while working full time, how to advocate for yourself at work",
         ],
       },
       {
@@ -396,13 +385,13 @@ export default {
           facebook: "https://www.facebook.com/alexryan2015/",
           instagram: null,
           twitter: null,
-          linkedin: "https://www.facebook.com/alexryan2015/"
+          linkedin: "www.linkedin.com/in/alex-ryan-384aa7104"
         },
         yearGraduated: "2015",
         currentCity: "Columbus, OH",
         collegeAndMajor: "John Carroll University – Finance and Economic",
         currentJob: "PhD Student in Environmental Economics at the Ohio State University",
-        jobDescription: "I am a graduate assistant in the Economics Department at Ohio State University researching applied environmental economics.",
+        jobDescription: "I am a graduate assistant in the Economics Department at Ohio State University researching how natural disasters impact the U.S. banking system and how access to credit impacts community development initiatives. I am also a consultant to the American Bankers Association assisting with research, article writing, and data analysis.",
         priorRoles: "Senior Economic & Valuations Associate @ KPMG, Statistics and Analysis Associate @ the Federal Reserve Bank of Cleveland",
         interests:
           "Biking and playing volleyball, frequenting local coffee shops, operating the Late Night Scholarships fund, writing and researching, listening to records",
@@ -427,7 +416,7 @@ export default {
         yearGraduated: "2013",
         currentCity: "Charlotte, North Carolina",
         collegeAndMajor: "Ohio State University – Computer Science",
-        currentJob: "Cloud Engineering Manager @ Ally Bank",
+        currentJob: "Cloud Engineering Manager @ Truist Bank",
         jobDescription: {
           summary:
             "I am on the Cloud Enablement team at Ally. We work with application teams to deploy their apps on Amazon Web Services. This can be broken down into 2 major areas of focus:",
@@ -438,7 +427,7 @@ export default {
         },
         priorRoles: "Salesforce Developer @ Acumen Solutions",
         interests:
-          "Running, making and eating ice cream, maintaining the Late Night Scholarships website, losing to my siblings in every video game except Mario Kart",
+          "Lifting heavy weights, making and eating salads, maintaining the Late Night Scholarships website, losing to my siblings in every video game including Mario Kart",
         canOfferAdviceOn: "Majoring in computer science",
       },
       {
@@ -457,19 +446,12 @@ export default {
         collegeAndMajor: "Case Western Reserve University – Biochemistry",
         currentJob: "Ph.D. Student in Immunobiology at Yale University",
         jobDescription: `
-	I am a graduate student researcher working in the
-	laboratory of Dr. Ellen Foxman. I work on research
-	projects focused on characterizing the immune
-	responses to human respiratory viruses (such as
-	rhinovirus, SARS-CoV-2, and influenza), how age may influence these responses, and how differences may
-	predict clinical severity. Our lab conducts these
-	studies using models of human airway cells grown in
-	culture as well as analysis of clinical samples.`,
-        priorRoles: null,
+	I am a graduate student research scientist working in the laboratory of Dr. Ellen Foxman at Yale University. My work focuses on characterizing immune responses in the airway to respiratory viral infections and how these may influence clinical outcomes. In my research projects, I conduct experiments using a variety of respiratory viruses, human airway epithelial cells, and clinical samples. I apply a variety of biostatistical techniques and bioinformatics tools to analysis large datasets obtained from experiments and publish findings in peer-reviewed scientific journals.`,
+        priorRoles: "Post-baccalaureate research fellow at NIH, teaching assistant roles at CWRU and Yale",
         interests:
-          "Running, juggling, hiking/taking pictures of fungi and other cool things I spot on trails",
+          "Running, hiking, birdwatching, target sports",
         canOfferAdviceOn:
-          "Applying to PhD programs or students wanting to discuss entering med school ",
+          "Getting involved in scientific research, applying to PhD programs, being a first generation college student, biological sciences",
       },
       {
         firstName: "Josh",
@@ -549,7 +531,7 @@ export default {
         firstName: "Jeff",
         lastName: "Swan",
         contact: {
-          phone: "440-773-5643",
+          phone: null,
           email: "jswan@cscpails.com",
           facebook: null,
           instagram: null,
@@ -630,8 +612,8 @@ export default {
         contact: {
           phone: null,
           email: "shanestockall@gmail.com",
-          facebook: "https://www.facebook.com/shane.stockall/",
-          instagram: "https://www.instagram.com/shanestockall/",
+          facebook: null,
+          instagram: null,
           twitter: null,
           linkedin: "https://www.linkedin.com/in/shanestockall/"
         },
@@ -779,7 +761,7 @@ roles:[
         firstName: "Andrew",
         lastName: "Koehler, P.S.",
         contact: {
-          phone: "330-224-2262",
+          phone: null,
           email: "Andrewpkoehler@hotmail.com",
           facebook: "https://www.facebook.com/andrew.koehler.984/",
           instagram: "https://www.instagram.com/throw.away.your.televisionz/",
