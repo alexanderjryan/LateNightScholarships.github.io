@@ -59,7 +59,7 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/Thompson.jpg"/>
+              <img src="@/assets/images/winners/thompson.jpg"/>
             </div>
             <div class="text-center">
               <h3>Benjamin Thompson</h3>
