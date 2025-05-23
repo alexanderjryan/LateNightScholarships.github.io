@@ -58,7 +58,7 @@
               Furthermore, each donor is welcome to propose improvements to the
               applications. In the future, we hope to provide mentorship
               opportunities to applicants by matching students with donors based
-              on their career aspirations. In 2024, we awarded scholarships of
+              on their career aspirations. In 2025, we awarded scholarships of
               $1,500 to 3 graduating PHS seniors. The hope is that as more alumni
               graduate from college, the donor base will continue to grow and
               help us provide more scholarships with larger balances.

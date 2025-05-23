@@ -31,11 +31,11 @@
         <div class="row">
           <div class="col-md-12 section-container-spacer">
             <div class="text-center">
-              <h2>Perry Class of 2024 Winners</h2>
+              <h2>Perry Class of 2025 Winners</h2>
               <p>
                 The Late Night Scholarships fund awarded 3 scholarships to
-                graduating seniors in the Perry Class of 2024. The winners
-                include Aleca Lautenschleger, Jocelyn Wright, and Marlee Pireu.
+                graduating seniors in the Perry Class of 2025. The winners
+                include Danae Lopez, Benjamin Thompson, and Chloe Dostal.
                 Congratulations to our winners!
               </p>
             </div>
@@ -44,45 +44,45 @@
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/lautenschleger.jpg"/>
+              <img src="@/assets/images/winners/lopez.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Aleca Lautenschleger</h3>
+              <h3>Danae Lopez</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Aleca Lautenschleger will be majoring in Psychology at the University of Chicago.
+              Danae Lopez will be majoring in Biochemistry at The Ohio State University.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/pireu.jpg"/>
+              <img src="@/assets/images/winners/thompson.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Marlee Pireu</h3>
+              <h3>Benjamin Thompson</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Marlee Pireu will be attending Malone University.
+              Benjamin Thompson will be attending the University of Akron to major in Mechanical Engineering.
             </p>
           </div>
         </div>
         <div class="row winner">
           <div class="col-md-4">
             <div class="winner-photo">
-              <img src="@/assets/images/winners/wright.jpg"/>
+              <img src="@/assets/images/winners/dostal.jpg"/>
             </div>
             <div class="text-center">
-              <h3>Jocelyn Wright</h3>
+              <h3>Chloe Dostal</h3>
             </div>
           </div>
           <div class="col-md-8">
             <p>
-              Jocelyn Wright will be attending The University of Findlay to major in Pharmacy.
+              Chloe Dostal will be attending The Ohio State University to major in Marketing.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@
               <h2>Donate to the Scholarship Fund</h2>
               <p>
                 The Late Night Scolarships fund is accepting donations for the
-                Class of 2025 scholarships. Last year, we collected over $4,500
+                Class of 2026 scholarships. Last year, we collected over $4,500
                 from over 35+ donors. 100% of donations go towards the
                 scholarships. All donors have the option to review the
                 anonymized applications and vote for which applicants should
