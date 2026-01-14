@@ -9,7 +9,7 @@
             <p>
               Late Night Scholarships was formed to provide Perry alumni with
               the opportunity to give back to the community and support
-              college-bound Perry students.
+              Perry students in their post-secondary education.
             </p>
             <router-link
               :to="{ name: 'donate' }"
@@ -132,7 +132,7 @@
               <li>
                 <h3>Contribute to a Noble Cause</h3>
                 <p>
-                  Enable Perry students to attend college with reduced financial
+                  Enable Perry students to attend further their education with reduced financial
                   obstacles.
                 </p>
               </li>

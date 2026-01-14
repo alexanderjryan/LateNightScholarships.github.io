@@ -8,10 +8,10 @@
               <h2>Late Night Scholarships Application</h2>
             </div>
             <p>
-              <!-- 2024 Results will be announced in May. -->
+              <!-- 2026 Results will be announced in May. -->
               <br/><br/>
-              <!-- Check back in January for the class of 2025 application. -->
-              The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1,500 scholarships to graduating Perry students in the class of 2025. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be April 1, 2025. The winner of the scholarship will be announced in May 2025. 
+              <!-- Check back in January for the class of 2027 application. -->
+              The Late Night Scholarship Fund was created to enable recent Perry graduates to give back to the Perry community and help three Perry students reduce the financial burden of furthering their education. The Late Night Scholarship Fund is offering three $1,500 scholarships to graduating Perry students in the class of 2026. To apply for a scholarship, please fill out the following application form in its entirety. The deadline for completing the scholarship application will be March 29, 2026. The winner of the scholarship will be announced in May 2026. 
               <br> <br> 
               Please fill out the following application form in its entirety. You will need an electronic copy of your transcript to attach to the application. It's recommended you type out your essay responses externally then copy and paste them here.
             </p>
@@ -94,17 +94,17 @@
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-6">
-                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2025<span class="lns-required">*</span></label>
+                    <label for="graduationAttestation">Please confirm you are on track to graduate in May 2026<span class="lns-required">*</span></label>
                     <div class="radio">
                       <label>
                         <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationYes" :value="true">
-                        I confirm that I will graduate in May 2025
+                        I confirm that I will graduate in May 2026
                       </label>
                     </div>
                     <div class="radio">
                       <label>
                         <input v-model="application.graduationAttestation" type="radio" name="graduationAttestation" id="graduationNo" :value="false">
-                        I cannot confirm that I will graduate in May 2025
+                        I cannot confirm that I will graduate in May 2026
                       </label>
                     </div>
                   </div>
@@ -160,25 +160,25 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="other-extracurriculars">Please list your involvement in other extra curricular activities</label>
+                    <label for="other-extracurriculars">Please list your involvement in other extra curricular activities including employment</label>
                     <textarea v-model="application.otherExtracurriculars" class="form-control" rows="2" name="other-extracurriculars" id="other-extracurriculars"></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 form-group">
-                    <label for="university-accepted">If you have been accepted by a college or university that you plan to attend, please provide the name of the institution. If not, please answer "N/A"<span class="lns-required">*</span></label>
+                    <label for="university-accepted">If you have been accepted into a college, university, trade school, apprenticeship, or other post-secondary program you plan to attend, please provide the name of the institution or program. If not yet accepted, please answer "N/A"<span class="lns-required">*</span></label>
                     <input v-model="application.plannedUniversity" type="text" class="form-control" id="university-accepted" placeholder="College/University">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 form-group">
-                    <label for="university-applied">If you answered "N/A" to the previous question, please list the college(s) you have applied to and the current status of your application (e.g. Accepted, Wait-listed, Denied, Waiting for Response)</label>
+                    <label for="university-applied">If you answered "N/A" to the previous question, please list any colleges, universities, trade schools, apprenticeships, or other post-secondary programs you have applied to, along with the current status of each application (e.g., Accepted, Waitlisted, Denied, Pending)</label>
                     <input v-model="application.appliedUniversity" type="text" class="form-control" id="university-applied" placeholder="College(s)">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 form-group">
-                    <label for="intended-major">What is your intended major? If you have not identified a major, which area of study are you most seriously considering (STEM, Business, Humanities, Arts, etc.)?<span class="lns-required">*</span></label>
+                    <label for="intended-major">What is your intended field of study, trade, or area of training? If you have not yet identified one, please describe the area you are most seriously considering (e.g., STEM, Business, Skilled Trades, Healthcare, Arts, Public Service, etc.)<span class="lns-required">*</span></label>
                     <input v-model="application.majorInterest" type="text" class="form-control" id="intended-major" placeholder="Major/Interest">
                   </div>
                 </div>
@@ -228,19 +228,19 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="essay-2-prompt-1">After graduating college, you will begin your dream job and use your education to develop your career. Additionally, you will have the opportunity to apply your strengths/talent/interests to contribute to your community. As an established professional, explain how you would use your personal strengths/talents/interests to give back to the community or provide beneficial services to those in need. In your explanation, please identify the gap or weakness you have identified in your community and provide an example of what "success" looks like from your contribution/service. Creative responses to prominent issues in your community are preferred.</label>
+                    <label for="essay-2-prompt-1">After graduating, you will begin your dream job and use your education to develop your career. Additionally, you will have the opportunity to apply your strengths/talent/interests to contribute to your community. As an established professional, explain how you would use your personal strengths/talents/interests to give back to the community or provide beneficial services to those in need. In your explanation, please identify the gap or weakness you have identified in your community and provide an example of what "success" looks like from your contribution/service. Creative responses to prominent issues in your community are preferred.</label>
                     <textarea v-model="application.essaySection2Prompt1" class="form-control" rows="4" name="essay-2-prompt-1" id="essay-2-prompt-1"></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="essay-2-prompt-2">As you begin taking new and exciting courses in college, most of the material will likely be completely new to you. This is why college is such a formidable time for so many people - they learn about new things and can develop their own perspectives in their field. However, you will also hear new perspectives on familiar topics, and the best students will be willing to update their understanding based on new information and even change their perspectives when necessary. Reflecting on your journey over the past few years, describe the last time someone changed your mind on something that you believe is really important.</label>
+                    <label for="essay-2-prompt-2">As you begin taking new and exciting courses in your post-secondary education, most of the material will likely be completely new to you. This is why college is such a formidable time for so many people - they learn about new things and can develop their own perspectives in their field. However, you will also hear new perspectives on familiar topics, and the best students will be willing to update their understanding based on new information and even change their perspectives when necessary. Reflecting on your journey over the past few years, describe the last time someone changed your mind on something that you believe is really important.</label>
                     <textarea v-model="application.essaySection2Prompt2" class="form-control" rows="4" name="essay-2-prompt-2" id="essay-2-prompt-2"></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12">
-                    <label for="essay-2-prompt-3">"Enjoy the journey" describes the feeling that people should relish in their present day experiences instead of prioritizing only their destination. What journey have you enjoyed? What destination have you enjoyed more than the journey?</label>
+                    <label for="essay-2-prompt-3">"Enjoy the journey" describes the feeling that people should relish in their present day experiences instead of prioritizing only their destination. What journey have you enjoyed?</label>
                     <textarea v-model="application.essaySection2Prompt3" class="form-control" rows="4" name="essay-2-prompt-3" id="essay-2-prompt-3"></textarea>
                   </div>
                 </div>

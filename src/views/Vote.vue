@@ -136,7 +136,7 @@
                   <div class="col-md-6">
                     <label for="graduationAttestation"
                       >Please confirm you are on track to graduate in May
-                      2024</label
+                      2026</label
                     >
                     <div class="radio">
                       <label>
@@ -148,7 +148,7 @@
                           value="true"
                           disabled
                         />
-                        I confirm that I will graduate in May 2024
+                        I confirm that I will graduate in May 2026
                       </label>
                     </div>
                     <div class="radio">
@@ -161,7 +161,7 @@
                           value="false"
                           disabled
                         />
-                        I cannot confirm that I will graduate in May 2024
+                        I cannot confirm that I will graduate in May 2026
                       </label>
                     </div>
                   </div>
@@ -253,7 +253,7 @@
                   <div class="col-xs-12">
                     <label for="other-extracurriculars"
                       >Please list your involvement in other extra curricular
-                      activities</label
+                      activities including employment</label
                     >
                     <textarea
                       v-model="selectedApplication.otherExtracurriculars"
@@ -268,9 +268,7 @@
                 <div class="row">
                   <div class="col-xs-12 form-group">
                     <label for="university-accepted"
-                      >If you have been accepted by a college or university that
-                      you plan to attend, please provide the name of the
-                      institution. If not, please answer "N/A"</label
+                      >If you have been accepted into a college, university, trade school, apprenticeship, or other post-secondary program you plan to attend, please provide the name of the institution or program. If not yet accepted, please answer "N/A"</label
                     >
                     <textarea
                       v-model="selectedApplication.plannedUniversity"
@@ -284,10 +282,7 @@
                 <div class="row">
                   <div class="col-xs-12 form-group">
                     <label for="university-applied"
-                      >If you answered "N/A" to the previous question, please
-                      list the college(s) you have applied to and the current
-                      status of your application (e.g. Accepted, Wait-listed,
-                      Denied, Waiting for Response)</label
+                      >If you answered "N/A" to the previous question, please list any colleges, universities, trade schools, apprenticeships, or other post-secondary programs you have applied to, along with the current status of each application (e.g., Accepted, Waitlisted, Denied, Pending)</label
                     >
                     <textarea
                       v-model="selectedApplication.appliedUniversity"
@@ -301,9 +296,7 @@
                 <div class="row">
                   <div class="col-xs-12 form-group">
                     <label for="intended-major"
-                      >What is your intended major? If you have not identified a
-                      major, which area of study are you most seriously
-                      considering (STEM, Business, Humanities, Arts, etc.)?</label
+                      >What is your intended field of study, trade, or area of training? If you have not yet identified one, please describe the area you are most seriously considering (e.g., STEM, Business, Skilled Trades, Healthcare, Arts, Public Service, etc.)</label
                     >
                     <textarea
                       v-model="selectedApplication.majorInterest"
@@ -412,7 +405,7 @@
                 <div v-if="selectedApplication.essaySection2Prompt1" class="row">
                   <div class="col-xs-12">
                     <label for="essay-2-prompt-1"
-                      >After graduating college, you will begin your dream job
+                      >After graduating, you will begin your dream job
                       and use your education to develop your career.
                       Additionally, you will have the opportunity to apply your
                       strengths/talent/interests to contribute to your
@@ -461,8 +454,7 @@
                       >"Enjoy the journey" describes the feeling that people
                       should relish in their present day experiences instead of
                       prioritizing only their destination. What journey have you
-                      enjoyed? What destination have you enjoyed more than the
-                      journey?</label
+                      enjoyed?</label
                     >
                     <textarea
                       v-model="selectedApplication.essaySection2Prompt3"
